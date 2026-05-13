@@ -7,8 +7,9 @@ import { useDispatch } from "react-redux";
 import { AppDispatch } from "@/redux/store";
 import { updateQuickView } from "@/redux/features/quickView-slice";
 import { addItemToCart } from "@/redux/features/cart-slice";
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
+import { getProductMainImageSrc } from "@/utils/productImage";
 import { addItemToWishlist } from "@/redux/features/wishlist-slice";
 
 const SingleItem = ({ item }: { item: Product }) => {
@@ -92,7 +93,7 @@ const SingleItem = ({ item }: { item: Product }) => {
         </div>
 
         <div className="flex justify-center items-center">
-          <Image src={item.imgs.previews[0]} alt="" width={280} height={280} />
+          <Image src={getProductMainImageSrc(item)} alt="" width={280} height={280} />
         </div>
 
         <div className="absolute right-0 bottom-0 translate-x-full u-w-full flex flex-col gap-2 p-5.5 ease-linear duration-300 group-hover:translate-x-0">

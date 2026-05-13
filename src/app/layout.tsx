@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Be_Vietnam_Pro } from "next/font/google";
 import { rootSiteMetadata } from "@/lib/site";
 import AppSiteShell from "./(site)/AppSiteShell";
+import VercelAnalytics from "@/components/Common/VercelAnalytics";
 
 export const metadata: Metadata = rootSiteMetadata;
 
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="vi" suppressHydrationWarning={true}>
       <body className={beVietnamPro.variable}>
         <AppSiteShell>{children}</AppSiteShell>
+        <VercelAnalytics />
       </body>
     </html>
   );

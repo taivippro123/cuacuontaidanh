@@ -1,32 +1,42 @@
 [
   {
     "id": 1,
-    "title": "Electronics",
-    "slug": "electronics"
+    "title": "Bình lưu điện",
+    "slug": "binh-luu-dien"
   },
   {
     "id": 2,
-    "title": "Computers",
-    "slug": "computers"
+    "title": "Cửa cuốn công nghệ Đài Loan",
+    "slug": "cua-cuon-cong-nghe-dai-loan"
   },
   {
     "id": 3,
-    "title": "Gaming",
-    "slug": "gaming"
+    "title": "Cửa cuốn công nghệ Đức",
+    "slug": "cua-cuon-cong-nghe-duc"
   },
   {
     "id": 4,
-    "title": "Accessories",
-    "slug": "accessories"
+    "title": "Cửa cuốn công nghệ Úc",
+    "slug": "cua-cuon-cong-nghe-uc"
   },
   {
     "id": 5,
-    "title": "Mobile Devices",
-    "slug": "mobile-devices"
+    "title": "Cửa cuốn đặc biệt",
+    "slug": "cua-cuon-dac-biet"
   },
   {
     "id": 6,
-    "title": "Wearables",
-    "slug": "wearables"
+    "title": "Cửa kéo công nghệ Đài Loan",
+    "slug": "cua-keo-cong-nghe-dai-loan"
+  },
+  {
+    "id": 7,
+    "title": "Bộ điều khiển từ xa",
+    "slug": "bo-dieu-khien-tu-xa"
+  },
+  {
+    "id": 8,
+    "title": "Moteur và phụ kiện",
+    "slug": "moteur-va-phu-kien"
   }
 ]

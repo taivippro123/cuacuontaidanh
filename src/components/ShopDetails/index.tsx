@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Breadcrumb from "../Common/Breadcrumb";
 import Image from "next/image";
@@ -10,6 +10,7 @@ import { getProductBySlug } from "@/utils/dataFetcher";
 import { Product } from "@/types/product";
 import { useDispatch } from "react-redux";
 import { AppDispatch } from "@/redux/store";
+import { getProductPreviewUrls, getProductThumbnailUrls } from "@/utils/productImage";
 import { updateproductDetails } from "@/redux/features/product-details";
 
 interface ShopDetailsProps {
@@ -22,6 +23,15 @@ const ShopDetails = ({ slug }: ShopDetailsProps) => {
   const [previewImg, setPreviewImg] = useState(0);
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState(true);
+
+  const previewUrls = useMemo(
+    () => (product ? getProductPreviewUrls(product) : []),
+    [product]
+  );
+  const thumbnailUrls = useMemo(
+    () => (product ? getProductThumbnailUrls(product) : []),
+    [product]
+  );
 
   // Fetch product by slug if provided, otherwise use from localStorage/Redux
   useEffect(() => {
@@ -44,10 +54,14 @@ const ShopDetails = ({ slug }: ShopDetailsProps) => {
     loadProduct();
   }, [slug]);
 
+  useEffect(() => {
+    if (product) setPreviewImg(0);
+  }, [product?.id]);
+
   /** Mở lightbox xem ảnh toàn màn hình (đúng slide theo thumbnail đang chọn) */
   const handlePreviewSlider = () => {
     if (!product) return;
-    const previews = product.imgs?.previews?.filter(Boolean) ?? [];
+    const previews = previewUrls;
     if (!previews.length) return;
 
     dispatch(updateproductDetails(product));
@@ -101,20 +115,20 @@ const ShopDetails = ({ slug }: ShopDetailsProps) => {
                         </svg>
                       </button>
 
-                      {product.imgs?.previews?.[previewImg] && (
+                      {previewUrls[previewImg] ? (
                         <Image
-                          src={product.imgs.previews[previewImg]}
+                          src={previewUrls[previewImg]}
                           alt="products-details"
                           width={400}
                           height={400}
                         />
-                      )}
+                      ) : null}
                     </div>
                   </div>
 
                   {/* Thumbnail images */}
                   <div className="flex flex-wrap sm:flex-nowrap gap-4.5 mt-6">
-                    {product.imgs?.thumbnails.map((item, key) => (
+                    {thumbnailUrls.map((item, key) => (
                       <button
                         onClick={() => setPreviewImg(key)}
                         key={key}

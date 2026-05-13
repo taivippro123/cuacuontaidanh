@@ -1,42 +1,93 @@
 [
   {
     "id": 1,
-    "title": "MR BEAST HV-G69 USB Gamepad",
-    "slug": "havit-hv-g69-usb-gamepad",
-    "description": "Premium USB gamepad with ergonomic design and dual vibration feedback",
-    "price": 59.0,
-    "discountedPrice": 29.0,
-    "reviews": 15,
+    "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH B600",
+    "slug": "binh-luu-dien-cua-cuon-yh-b600",
+    "description": "Bình lưu điện cửa cuốn YH B600",
     "image": "/images/products/product-1-bg-1.png",
-    "categoryId": 3,
-    "imgs": {
-      "thumbnails": [
-        "/images/products/product-1-sm-1.png",
-        "/images/products/product-1-sm-2.png"
-      ],
-      "previews": [
-        "/images/products/product-1-bg-1.png",
-        "/images/products/product-1-bg-2.png"
-      ]
-    },
+    "categoryId": 1,
     "specifications": [
-      {"key": "Brand", "value": "MR BEAST"},
-      {"key": "Model", "value": "HV-G69"},
-      {"key": "Connection Type", "value": "USB 2.0"},
-      {"key": "Compatibility", "value": "Windows, macOS, Linux"},
-      {"key": "Features", "value": "Dual Vibration, Ergonomic Design"}
+      {
+        "key": "Thương hiệu",
+        "value": "YH"
+      },
+      {
+        "key": "Điện áp vào",
+        "value": "160 ~ 240Vac, tần số 47 ~ 60Hz"
+      },
+      {
+        "key": "Điện áp ra (Back-up)",
+        "value": "230Vac, tần số 50Hz"
+      },
+      {
+        "key": "Công suất",
+        "value": "1000VA"
+      },
+      {
+        "key": "Tải mô-tơ ứng dụng",
+        "value": "600Kg"
+      },
+      {
+        "key": "Ắc quy",
+        "value": "12V-9.0Ah x 02 (GEL kín khí, không cần bảo dưỡng)"
+      },
+      {
+        "key": "Thời gian sạc lại",
+        "value": "16 giờ đạt 90%"
+      },
+      {
+        "key": "Thời gian lưu điện",
+        "value": "Sau 48 giờ vẫn có thể nâng – hạ cửa"
+      },
+      {
+        "key": "Tự động xả bảo dưỡng ắc quy",
+        "value": "Chu kỳ 20 ngày/lần, xả 30% dung lượng ắc quy"
+      },
+      {
+        "key": "Hiển thị",
+        "value": "Màn hình LCD đa thông tin và LED 3 màu trạng thái"
+      },
+      {
+        "key": "Bảo vệ quá tải điện lưới",
+        "value": "Cầu chì"
+      },
+      {
+        "key": "Bảo vệ quá tải INVERTER",
+        "value": "Cảm biến điện tử"
+      },
+      {
+        "key": "Bảo vệ chống sét lan truyền",
+        "value": "2KVA"
+      },
+      {
+        "key": "Tính năng",
+        "value": "Khởi động mềm, chống chập tải, chống xả kiệt ắc quy"
+      },
+      {
+        "key": "Vỏ máy",
+        "value": "Thép sơn tĩnh điện"
+      },
+      {
+        "key": "Kích thước",
+        "value": "340 x 240 x 100 mm"
+      },
+      {
+        "key": "Trọng lượng",
+        "value": "9.5 Kg"
+      },
+      {
+        "key": "Bảo hành",
+        "value": "1 năm"
+      }
     ]
   },
   {
     "id": 2,
-    "title": "iPhone 14 Plus, 6/128GB",
-    "slug": "iphone-14-plus-6-128gb",
-    "description": "Latest iPhone with advanced camera system and A16 Bionic chip",
-    "price": 899.0,
-    "discountedPrice": 99.0,
-    "reviews": 5,
+    "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH C400",
+    "slug": "binh-luu-dien-cua-cuon-yh-c400",
+    "description": "Bình lưu điện cửa cuốn YH C400",
     "image": "/images/products/product-2-bg-1.png",
-    "categoryId": 5,
+    "categoryId": 1,
     "imgs": {
       "thumbnails": [
         "/images/products/product-2-sm-1.png",
@@ -48,173 +99,1270 @@
       ]
     },
     "specifications": [
-      {"key": "Brand", "value": "Apple"},
-      {"key": "Model", "value": "iPhone 14 Plus"},
-      {"key": "Display Size", "value": "6.7 inches"},
-      {"key": "Display Type", "value": "Super Retina XDR OLED, HDR10"},
-      {"key": "Display Resolution", "value": "1284 x 2778 pixels, 19.5:9 ratio"},
-      {"key": "Chipset", "value": "Apple A16 Bionic (5 nm)"},
-      {"key": "Memory", "value": "6GB RAM"}
+      {
+        "key": "Thương hiệu",
+        "value": "YH"
+      },
+      {
+        "key": "Điện áp vào",
+        "value": "160 ~ 240Vac, tần số 47 ~ 60Hz"
+      },
+      {
+        "key": "Điện áp ra (Back-up)",
+        "value": "230Vac, tần số 50Hz"
+      },
+      {
+        "key": "Công suất",
+        "value": "800VA"
+      },
+      {
+        "key": "Tải mô-tơ ứng dụng",
+        "value": "400Kg"
+      },
+      {
+        "key": "Ắc quy",
+        "value": "12V-7.2Ah x 02 (GEL kín khí, không cần bảo dưỡng)"
+      },
+      {
+        "key": "Thời gian sạc lại",
+        "value": "16 giờ đạt 90%"
+      },
+      {
+        "key": "Thời gian lưu điện",
+        "value": "Sau 32 giờ vẫn có thể nâng – hạ cửa"
+      },
+      {
+        "key": "Tự động xả bảo dưỡng ắc quy",
+        "value": "Chu kỳ 20 ngày/lần, xả 30% dung lượng ắc quy"
+      },
+      {
+        "key": "Hiển thị",
+        "value": "LED 3 màu trạng thái"
+      },
+      {
+        "key": "Bảo vệ quá tải điện lưới",
+        "value": "Cầu chì"
+      },
+      {
+        "key": "Bảo vệ quá tải INVERTER",
+        "value": "Cảm biến điện tử"
+      },
+      {
+        "key": "Bảo vệ chống sét lan truyền",
+        "value": "2KVA"
+      },
+      {
+        "key": "Tính năng",
+        "value": "Khởi động mềm, chống chập tải, chống xả kiệt ắc quy"
+      },
+      {
+        "key": "Vỏ máy",
+        "value": "Nhựa ABS"
+      },
+      {
+        "key": "Kích thước",
+        "value": "360 x 260 x 90 mm"
+      },
+      {
+        "key": "Trọng lượng",
+        "value": "7.2 Kg"
+      },
+      {
+        "key": "Bảo hành",
+        "value": "1 năm"
+      }
     ]
   },
   {
     "id": 3,
-    "title": "Apple iMac M1 24-inch 2021",
-    "slug": "apple-imac-m1-24-inch-2021",
-    "description": "Powerful all-in-one desktop with stunning Retina display and M1 processor",
-    "price": 59.0,
-    "discountedPrice": 29.0,
-    "reviews": 5,
+    "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH C600",
+    "slug": "binh-luu-dien-cua-cuon-yh-c600",
+    "description": "Bình lưu điện cửa cuốn YH C600",
     "image": "/images/products/product-3-bg-1.png",
-    "categoryId": 2,
-    "imgs": {
-      "thumbnails": [
-        "/images/products/product-3-sm-1.png",
-        "/images/products/product-3-sm-2.png"
-      ],
-      "previews": [
-        "/images/products/product-3-bg-1.png",
-        "/images/products/product-3-bg-2.png"
-      ]
-    },
+    "categoryId": 1,
     "specifications": [
-      {"key": "Brand", "value": "Apple"},
-      {"key": "Model", "value": "iMac 24-inch M1"},
-      {"key": "Display Size", "value": "24 inches"},
-      {"key": "Display Resolution", "value": "4480 x 2520 pixels, 4.5K Retina"},
-      {"key": "Processor", "value": "Apple M1 Chip (8-core)"},
-      {"key": "Memory", "value": "8GB unified memory"},
-      {"key": "Storage", "value": "256GB or 512GB SSD"}
+      {
+        "key": "Thương hiệu",
+        "value": "YH"
+      },
+      {
+        "key": "Điện áp vào",
+        "value": "160 ~ 240Vac, tần số 47 ~ 60Hz"
+      },
+      {
+        "key": "Điện áp ra (Back-up)",
+        "value": "230Vac, tần số 50Hz"
+      },
+      {
+        "key": "Công suất",
+        "value": "1000VA"
+      },
+      {
+        "key": "Tải mô-tơ ứng dụng",
+        "value": "600Kg"
+      },
+      {
+        "key": "Ắc quy",
+        "value": "12V-7.2Ah x 02 (GEL kín khí, không cần bảo dưỡng)"
+      },
+      {
+        "key": "Thời gian sạc lại",
+        "value": "16 giờ đạt 90%"
+      },
+      {
+        "key": "Thời gian lưu điện",
+        "value": "Sau 32 giờ vẫn có thể nâng – hạ cửa"
+      },
+      {
+        "key": "Tự động xả bảo dưỡng ắc quy",
+        "value": "Chu kỳ 20 ngày/lần, xả 30% dung lượng ắc quy"
+      },
+      {
+        "key": "Hiển thị",
+        "value": "LED 3 màu trạng thái"
+      },
+      {
+        "key": "Bảo vệ quá tải điện lưới",
+        "value": "Cầu chì"
+      },
+      {
+        "key": "Bảo vệ quá tải INVERTER",
+        "value": "Cảm biến điện tử"
+      },
+      {
+        "key": "Bảo vệ chống sét lan truyền",
+        "value": "2KVA"
+      },
+      {
+        "key": "Tính năng",
+        "value": "Khởi động mềm, chống chập tải, chống xả kiệt ắc quy"
+      },
+      {
+        "key": "Vỏ máy",
+        "value": "Nhựa ABS"
+      },
+      {
+        "key": "Kích thước",
+        "value": "360 x 260 x 90 mm"
+      },
+      {
+        "key": "Trọng lượng",
+        "value": "7.5 Kg"
+      },
+      {
+        "key": "Bảo hành",
+        "value": "1 năm"
+      }
     ]
   },
   {
     "id": 4,
-    "title": "MacBook Air M1 chip, 8/256GB",
-    "slug": "macbook-air-m1-chip-8-256gb",
-    "description": "Ultra-thin and lightweight laptop with exceptional performance and battery life",
-    "price": 59.0,
-    "discountedPrice": 29.0,
-    "reviews": 6,
+    "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH B400",
+    "slug": "binh-luu-dien-cua-cuon-yh-b400",
+    "description": "Bình lưu điện cửa cuốn YH B400",
     "image": "/images/products/product-4-bg-1.png",
-    "categoryId": 2,
-    "imgs": {
-      "thumbnails": [
-        "/images/products/product-4-sm-1.png",
-        "/images/products/product-4-sm-2.png"
-      ],
-      "previews": [
-        "/images/products/product-4-bg-1.png",
-        "/images/products/product-4-bg-2.png"
-      ]
-    },
+    "categoryId": 1,
     "specifications": [
-      {"key": "Brand", "value": "Apple"},
-      {"key": "Model", "value": "MacBook Air M1"},
-      {"key": "Display Size", "value": "13.3 inches"},
-      {"key": "Display Type", "value": "Liquid Retina IPS"},
-      {"key": "Processor", "value": "Apple M1 Chip (8-core)"},
-      {"key": "Memory", "value": "8GB unified memory"},
-      {"key": "Storage", "value": "256GB SSD"}
+      {
+        "key": "Thương hiệu",
+        "value": "YH"
+      },
+      {
+        "key": "Điện áp vào",
+        "value": "160 ~ 240Vac, tần số 47 ~ 60Hz"
+      },
+      {
+        "key": "Điện áp ra (Back-up)",
+        "value": "230Vac, tần số 50Hz"
+      },
+      {
+        "key": "Công suất",
+        "value": "800VA"
+      },
+      {
+        "key": "Tải mô-tơ ứng dụng",
+        "value": "400Kg"
+      },
+      {
+        "key": "Ắc quy",
+        "value": "12V-7.2Ah x 02 (GEL kín khí, không cần bảo dưỡng)"
+      },
+      {
+        "key": "Thời gian sạc lại",
+        "value": "16 giờ đạt 90%"
+      },
+      {
+        "key": "Thời gian lưu điện",
+        "value": "Sau 32 giờ vẫn có thể nâng – hạ cửa"
+      },
+      {
+        "key": "Tự động xả bảo dưỡng ắc quy",
+        "value": "Chu kỳ 20 ngày/lần, xả 30% dung lượng ắc quy"
+      },
+      {
+        "key": "Hiển thị",
+        "value": "Màn hình LCD đa thông tin và LED 3 màu trạng thái"
+      },
+      {
+        "key": "Bảo vệ quá tải điện lưới",
+        "value": "Cầu chì"
+      },
+      {
+        "key": "Bảo vệ quá tải INVERTER",
+        "value": "Cảm biến điện tử"
+      },
+      {
+        "key": "Bảo vệ chống sét lan truyền",
+        "value": "2KVA"
+      },
+      {
+        "key": "Tính năng",
+        "value": "Khởi động mềm, chống chập tải, chống xả kiệt ắc quy"
+      },
+      {
+        "key": "Vỏ máy",
+        "value": "Thép sơn tĩnh điện"
+      },
+      {
+        "key": "Kích thước",
+        "value": "340 x 240 x 100 mm"
+      },
+      {
+        "key": "Trọng lượng",
+        "value": "8.5 Kg"
+      },
+      {
+        "key": "Bảo hành",
+        "value": "1 năm"
+      }
     ]
   },
   {
     "id": 5,
-    "title": "Apple Watch Ultra",
-    "slug": "apple-watch-ultra",
-    "description": "Advanced smartwatch with health tracking and long battery life",
-    "price": 99.0,
-    "discountedPrice": 29.0,
-    "reviews": 3,
+    "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH B800",
+    "slug": "binh-luu-dien-cua-cuon-yh-b800",
+    "description": "Bình lưu điện cửa cuốn YH B800",
     "image": "/images/products/product-5-bg-1.png",
-    "categoryId": 6,
-    "imgs": {
-      "thumbnails": [
-        "/images/products/product-5-sm-1.png",
-        "/images/products/product-5-sm-2.png"
-      ],
-      "previews": [
-        "/images/products/product-5-bg-1.png",
-        "/images/products/product-5-bg-2.png"
-      ]
-    },
+    "categoryId": 1,
     "specifications": [
-      {"key": "Brand", "value": "Apple"},
-      {"key": "Model", "value": "Apple Watch Ultra"},
-      {"key": "Display Size", "value": "49mm"},
-      {"key": "Display Type", "value": "Always-On Retina LTPO OLED"},
-      {"key": "Water Resistance", "value": "100m Depth Rating"},
-      {"key": "Battery Life", "value": "Up to 2 days"},
-      {"key": "Processor", "value": "Apple S9 Chip"}
+      {
+        "key": "Thương hiệu",
+        "value": "YH"
+      },
+      {
+        "key": "Điện áp vào",
+        "value": "160 ~ 240Vac, tần số 47 ~ 60Hz"
+      },
+      {
+        "key": "Điện áp ra (Back-up)",
+        "value": "230Vac, tần số 50Hz"
+      },
+      {
+        "key": "Công suất",
+        "value": "1200VA"
+      },
+      {
+        "key": "Tải mô-tơ ứng dụng",
+        "value": "800Kg"
+      },
+      {
+        "key": "Ắc quy",
+        "value": "12V-12Ah x 02 (GEL kín khí, không cần bảo dưỡng)"
+      },
+      {
+        "key": "Thời gian sạc lại",
+        "value": "20 giờ đạt 90%"
+      },
+      {
+        "key": "Thời gian lưu điện",
+        "value": "Sau 50 giờ vẫn có thể nâng – hạ cửa"
+      },
+      {
+        "key": "Tự động xả bảo dưỡng ắc quy",
+        "value": "Chu kỳ 20 ngày/lần, xả 30% dung lượng ắc quy"
+      },
+      {
+        "key": "Hiển thị",
+        "value": "Màn hình LCD đa thông tin và LED 3 màu trạng thái"
+      },
+      {
+        "key": "Bảo vệ quá tải điện lưới",
+        "value": "Cầu chì"
+      },
+      {
+        "key": "Bảo vệ quá tải INVERTER",
+        "value": "Cảm biến điện tử"
+      },
+      {
+        "key": "Bảo vệ chống sét lan truyền",
+        "value": "2KVA"
+      },
+      {
+        "key": "Tính năng",
+        "value": "Khởi động mềm, chống chập tải, chống xả kiệt ắc quy"
+      },
+      {
+        "key": "Vỏ máy",
+        "value": "Thép sơn tĩnh điện"
+      },
+      {
+        "key": "Kích thước",
+        "value": "340 x 240 x 100 mm"
+      },
+      {
+        "key": "Trọng lượng",
+        "value": "11.5 Kg"
+      },
+      {
+        "key": "Bảo hành",
+        "value": "1 năm"
+      }
     ]
   },
   {
     "id": 6,
-    "title": "Logitech MX Master 3 Mouse",
-    "slug": "logitech-mx-master-3-mouse",
-    "description": "Professional-grade wireless mouse with precision tracking and customizable buttons",
-    "price": 59.0,
-    "discountedPrice": 29.0,
-    "reviews": 15,
+    "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH C800",
+    "slug": "binh-luu-dien-cua-cuon-yh-c800",
+    "description": "Bình lưu điện cửa cuốn YH C800",
     "image": "/images/products/product-6-bg-1.png",
-    "categoryId": 4,
-    "imgs": {
-      "thumbnails": [
-        "/images/products/product-6-sm-1.png",
-        "/images/products/product-6-sm-2.png"
-      ],
-      "previews": [
-        "/images/products/product-6-bg-1.png",
-        "/images/products/product-6-bg-2.png"
-      ]
-    },
+    "categoryId": 1,
     "specifications": [
-      {"key": "Brand", "value": "Logitech"},
-      {"key": "Model", "value": "MX Master 3"},
-      {"key": "Connectivity", "value": "2.4GHz wireless + Bluetooth"},
-      {"key": "Sensor", "value": "4000 DPI"},
-      {"key": "Buttons", "value": "8 programmable buttons"},
-      {"key": "Battery Life", "value": "Up to 70 days"},
-      {"key": "Compatibility", "value": "Windows, macOS, Linux"}
+      {
+        "key": "Thương hiệu",
+        "value": "YH"
+      },
+      {
+        "key": "Điện áp vào",
+        "value": "160 ~ 240Vac, tần số 47 ~ 60Hz"
+      },
+      {
+        "key": "Điện áp ra (Back-up)",
+        "value": "230Vac, tần số 50Hz"
+      },
+      {
+        "key": "Công suất",
+        "value": "1200VA"
+      },
+      {
+        "key": "Tải mô-tơ ứng dụng",
+        "value": "800Kg"
+      },
+      {
+        "key": "Ắc quy",
+        "value": "12V-9.0Ah x 02 (GEL kín khí, không cần bảo dưỡng)"
+      },
+      {
+        "key": "Thời gian sạc lại",
+        "value": "18 giờ đạt 90%"
+      },
+      {
+        "key": "Thời gian lưu điện",
+        "value": "Sau 36 giờ vẫn có thể nâng – hạ cửa"
+      },
+      {
+        "key": "Tự động xả bảo dưỡng ắc quy",
+        "value": "Chu kỳ 20 ngày/lần, xả 30% dung lượng ắc quy"
+      },
+      {
+        "key": "Hiển thị",
+        "value": "LED 3 màu trạng thái"
+      },
+      {
+        "key": "Bảo vệ quá tải điện lưới",
+        "value": "Cầu chì"
+      },
+      {
+        "key": "Bảo vệ quá tải INVERTER",
+        "value": "Cảm biến điện tử"
+      },
+      {
+        "key": "Bảo vệ chống sét lan truyền",
+        "value": "2KVA"
+      },
+      {
+        "key": "Tính năng",
+        "value": "Khởi động mềm, chống chập tải, chống xả kiệt ắc quy"
+      },
+      {
+        "key": "Vỏ máy",
+        "value": "Nhựa ABS"
+      },
+      {
+        "key": "Kích thước",
+        "value": "360 x 260 x 90 mm"
+      },
+      {
+        "key": "Trọng lượng",
+        "value": "7.5 Kg"
+      },
+      {
+        "key": "Bảo hành",
+        "value": "1 năm"
+      }
     ]
   },
   {
     "id": 7,
-    "title": "Samsung 55-inch QLED TV",
-    "slug": "samsung-55-inch-qled-tv",
-    "description": "4K QLED television with quantum dot technology and smart features",
-    "price": 799.0,
-    "discountedPrice": 549.0,
-    "reviews": 8,
+    "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH A2D",
+    "slug": "binh-luu-dien-cua-cuon-yh-a2d",
+    "description": "Bình lưu điện cửa cuốn YH A2D",
     "image": "/images/products/product-7-bg-1.png",
     "categoryId": 1,
-    "imgs": {
-      "thumbnails": [
-        "/images/products/product-7-sm-1.png",
-        "/images/products/product-7-sm-2.png"
-      ],
-      "previews": [
-        "/images/products/product-7-bg-1.png",
-        "/images/products/product-7-bg-2.png"
-      ]
-    },
     "specifications": [
-      {"key": "Brand", "value": "Samsung"},
-      {"key": "Model", "value": "55\" QLED"},
-      {"key": "Display Size", "value": "55 inches"},
-      {"key": "Resolution", "value": "4K UHD (3840 x 2160)"},
-      {"key": "Display Type", "value": "QLED with Quantum Dot"},
-      {"key": "Refresh Rate", "value": "120Hz"},
-      {"key": "Smart Features", "value": "Tizen OS with apps"}
+      {
+        "key": "Thương hiệu",
+        "value": "YH"
+      },
+      {
+        "key": "Model",
+        "value": "A2D"
+      },
+      {
+        "key": "Điện áp vào",
+        "value": "220Vac (50-60Hz)"
+      },
+      {
+        "key": "Điện áp ra (chế độ AC)",
+        "value": "Theo lưới điện"
+      },
+      {
+        "key": "Điện áp ra (chế độ DC)",
+        "value": "220Vac ± 3%, 50Hz"
+      },
+      {
+        "key": "Công suất",
+        "value": "1000VA"
+      },
+      {
+        "key": "Tải áp dụng",
+        "value": "Motor sức kéo ≤ 600Kg"
+      },
+      {
+        "key": "Pin / Ắc quy",
+        "value": "12V-9.0Ah x 02 cái"
+      },
+      {
+        "key": "Thời gian lưu điện",
+        "value": "24 - 48 giờ"
+      },
+      {
+        "key": "Thời gian nạp / sạc lại",
+        "value": "16 giờ đầy 95%"
+      },
+      {
+        "key": "Nhiệt độ hoạt động",
+        "value": "-5°C / +50°C"
+      },
+      {
+        "key": "Độ ẩm môi trường",
+        "value": "80%"
+      },
+      {
+        "key": "Chiều dài dây nguồn",
+        "value": "Dài 1000 mm, tiết diện 0.75 mm"
+      },
+      {
+        "key": "Trọng lượng",
+        "value": "9.5 Kg"
+      },
+      {
+        "key": "Kích thước",
+        "value": "340 × 240 × 105 mm"
+      }
     ]
   },
   {
     "id": 8,
-    "title": "Sony WH-1000XM4 Headphones",
-    "slug": "sony-wh-1000xm4-headphones",
-    "description": "Industry-leading noise-canceling headphones with premium sound quality",
-    "price": 349.0,
-    "discountedPrice": 248.0,
-    "reviews": 12,
+    "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH B1500MAX",
+    "slug": "binh-luu-dien-cua-cuon-yh-b1500max",
+    "description": "Bình lưu điện cửa cuốn YH B1500MAX",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 1,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Thương hiệu",
+        "value": "YH"
+      },
+      {
+        "key": "Điện áp vào",
+        "value": "170 ~ 240Vac, tần số 47 ~ 60Hz"
+      },
+      {
+        "key": "Điện áp ra (Back-up)",
+        "value": "230Vac, tần số 50Hz"
+      },
+      {
+        "key": "Công suất",
+        "value": "2000VA"
+      },
+      {
+        "key": "Tải mô-tơ ứng dụng",
+        "value": "1500Kg"
+      },
+      {
+        "key": "Ắc quy",
+        "value": "12V-20Ah x 02 (GEL kín khí, không cần bảo dưỡng)"
+      },
+      {
+        "key": "Thời gian sạc lại",
+        "value": "28 giờ đạt 90%"
+      },
+      {
+        "key": "Thời gian lưu điện",
+        "value": "Sau 60 giờ vẫn có thể nâng – hạ cửa"
+      },
+      {
+        "key": "Tự động xả bảo dưỡng ắc quy",
+        "value": "Chu kỳ 20 ngày/lần, xả 30% dung lượng ắc quy"
+      },
+      {
+        "key": "Hiển thị",
+        "value": "LED BAR báo dung lượng ắc quy và LED 3 màu trạng thái"
+      },
+      {
+        "key": "Bảo vệ quá tải điện lưới",
+        "value": "CB (áp tô mát) tự động"
+      },
+      {
+        "key": "Bảo vệ quá tải INVERTER",
+        "value": "Cảm biến điện tử"
+      },
+      {
+        "key": "Bảo vệ chống sét lan truyền",
+        "value": "3KVA"
+      },
+      {
+        "key": "Tính năng",
+        "value": "Khởi động mềm, chống chập tải, chống xả kiệt ắc quy"
+      },
+      {
+        "key": "Vỏ máy",
+        "value": "Thép sơn tĩnh điện"
+      },
+      {
+        "key": "Kích thước",
+        "value": "380 x 320 x 102 mm"
+      },
+      {
+        "key": "Trọng lượng",
+        "value": "20 Kg"
+      },
+      {
+        "key": "Bảo hành",
+        "value": "2 năm"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "CỬA CUỐN ĐÀI LOAN – 6 DEM",
+    "slug": "cua-cuon-dai-loan-6-dem",
+    "description": "Cửa cuốn đài loan 6 dem",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 2,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Bản nan",
+        "value": "80 mm"
+      },
+      {
+        "key": "Chất liệu",
+        "value": "Tole mạ màu"
+      },
+      {
+        "key": "Độ dày lá",
+        "value": "6 dem (0.6 mm)"
+      },
+      {
+        "key": "Kích thước tối đa",
+        "value": "Ngang 4500 mm × Cao 4500 mm"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Xanh ngọc / Vàng kem"
+      },
+      {
+        "key": "Chế độ vận hành",
+        "value": "Cửa cuốn đẩy tay, cửa cuốn motor"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "",
+    "slug": "",
+    "description": "",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 2,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": []
+  },
+  {
+    "id": 11,
+    "title": "CỬA CUỐN ĐÀI LOAN – 7 DEM",
+    "slug": "cua-cuon-dai-loan-7-dem",
+    "description": "Cửa cuốn đài loan 7 dem",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 2,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Bản nan",
+        "value": "80 mm"
+      },
+      {
+        "key": "Chất liệu",
+        "value": "Tole mạ màu"
+      },
+      {
+        "key": "Độ dày lá",
+        "value": "7 dem (0.7 mm)"
+      },
+      {
+        "key": "Kích thước tối đa",
+        "value": "Ngang 5500 mm × Cao 5000 mm"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Xanh ngọc / Vàng kem"
+      },
+      {
+        "key": "Chế độ vận hành",
+        "value": "Cửa cuốn đẩy tay, cửa cuốn motor"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "CỬA CUỐN ĐÀI LOAN – 8 DEM",
+    "slug": "cua-cuon-dai-loan-8-dem",
+    "description": "Cửa cuốn đài loan 8 dem",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 2,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Bản nan",
+        "value": "80 mm"
+      },
+      {
+        "key": "Chất liệu",
+        "value": "Tole mạ màu"
+      },
+      {
+        "key": "Độ dày lá",
+        "value": "8 dem (0.8 mm)"
+      },
+      {
+        "key": "Kích thước tối đa",
+        "value": "Ngang 6500 mm × Cao 6000 mm"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Xanh ngọc / Vàng kem / Xám"
+      },
+      {
+        "key": "Chế độ vận hành",
+        "value": "Cửa cuốn đẩy tay, cửa cuốn motor"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "CỬA CUỐN ĐÀI LOAN – 9 DEM",
+    "slug": "cua-cuon-dai-loan-9-dem",
+    "description": "Cửa cuốn đài loan 9 dem",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 2,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Bản nan",
+        "value": "80 mm"
+      },
+      {
+        "key": "Chất liệu",
+        "value": "Tole mạ màu"
+      },
+      {
+        "key": "Độ dày lá",
+        "value": "9 dem (0.9 mm)"
+      },
+      {
+        "key": "Kích thước tối đa",
+        "value": "Ngang 7500 mm × Cao 6500 mm"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Xanh ngọc / Vàng kem"
+      },
+      {
+        "key": "Chế độ vận hành",
+        "value": "Cửa cuốn đẩy tay, cửa cuốn motor"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "CỬA CUỐN CÔNG NGHỆ ĐÀI LOAN – DÒNG THẾ HỆ MỚI",
+    "slug": "cua-cuon-cong-nghe-dai-loan-dong-the-he-moi",
+    "description": "Cửa cuốn công nghệ đài loan dòng thế hệ mới",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 2,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Độ dày lá",
+        "value": "8 dem (0.8 mm), 9 dem (0.9 mm), 1.0 mm, 1.1 mm, 1.2 mm, 1.3 mm"
+      },
+      {
+        "key": "Lá dày 8 dem",
+        "value": "Kích thước tối đa: Cao 3000 mm × Ngang 3500 mm"
+      },
+      {
+        "key": "Lá dày 9 dem",
+        "value": "Kích thước tối đa: Cao 4500 mm × Ngang 4000 mm"
+      },
+      {
+        "key": "Lá dày 10 dem",
+        "value": "Kích thước tối đa: Cao 5000 mm × Ngang 4500 mm"
+      },
+      {
+        "key": "Lá dày 11 dem",
+        "value": "Kích thước tối đa: Cao 5500 mm × Ngang 5000 mm"
+      },
+      {
+        "key": "Lá dày 12 dem",
+        "value": "Kích thước tối đa: Cao 6000 mm × Ngang 5500 mm"
+      },
+      {
+        "key": "Lá dày 13 dem",
+        "value": "Kích thước tối đa: Cao 6500 mm × Ngang 6000 mm"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Xám"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "CỬA CUỐN ĐỨC OV 70 – NAN KÍN",
+    "slug": "cua-cuon-duc-ov-70-nan-kin",
+    "description": "Cửa cuốn đức ov 70 nan kin",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 3,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Kích thước tiêu chuẩn",
+        "value": "Min: 2000 × 1500 mm, Max: 5500 × 5000 mm"
+      },
+      {
+        "key": "Vật liệu nan cửa",
+        "value": "Hợp kim nhôm 6063"
+      },
+      {
+        "key": "Bề mặt",
+        "value": "Xử lý hóa chất, mạ cromate chống oxy hóa, sơn tĩnh điện ngoài trời Akzo Nobel"
+      },
+      {
+        "key": "Kiểu nan cửa",
+        "value": "Nan kín, cấu tạo 2 lớp, móc dày 1.1 mm, có thanh chống ngang, màu ghi sần, bề mặt có sọc, ô thoáng theo yêu cầu"
+      },
+      {
+        "key": "Độ dày nan cửa",
+        "value": "1.0 – 1.5 mm, khả năng chịu lực cao"
+      },
+      {
+        "key": "Trục cửa",
+        "value": "Trục mạ kẽm hoặc thép mạ màu fi 114, độ dày 1.7 – 2.5 mm tùy diện tích cửa, gắn buly nhựa PA liên kết chắc chắn"
+      },
+      {
+        "key": "Ray cửa",
+        "value": "Ray UTK76s bằng nhôm 6063, cấu tạo dạng hộp, lưng 2 lớp, có roăng chống ăn mòn"
+      },
+      {
+        "key": "Khung kỹ thuật",
+        "value": "Thép hộp mạ kẽm, hộp che vật liệu Alu hoặc thạch cao, màu sắc đa dạng (tùy chọn)"
+      },
+      {
+        "key": "Thiết bị nâng hạ",
+        "value": "HL Technology Taiwan"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "CỬA CUỐN ĐỨC C501i",
+    "slug": "cua-cuon-duc-c501i",
+    "description": "Cửa cuốn đức c501i",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 3,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Kích thước tiêu chuẩn",
+        "value": "Min: 2000 × 1500 mm, Max: 4500 × 4500 mm"
+      },
+      {
+        "key": "Vật liệu nan cửa",
+        "value": "Hợp kim nhôm 6063"
+      },
+      {
+        "key": "Bề mặt",
+        "value": "Xử lý hóa chất, mạ cromate chống oxy hóa, sơn tĩnh điện ngoài trời Akzo Nobel"
+      },
+      {
+        "key": "Kiểu nan cửa",
+        "value": "Nan đơn, cấu tạo 2 lớp, 2 vít, móc dày 1 mm, có thanh chống ngang, màu ghi cát hiện đại, bề mặt có sọc, ô thoáng hình oval"
+      },
+      {
+        "key": "Độ dày nan cửa",
+        "value": "1.1 – 1.6 mm, khả năng chịu lực cao"
+      },
+      {
+        "key": "Trục cửa",
+        "value": "Trục mạ kẽm hoặc thép mạ màu fi 114, độ dày 1.6 – 2.5 mm tùy diện tích cửa, gắn buly nhựa PA liên kết chắc chắn"
+      },
+      {
+        "key": "Ray cửa",
+        "value": "Ray UTK76s bằng nhôm 6063, cấu tạo dạng hộp, lưng 2 lớp, có roăng chống ăn mòn"
+      },
+      {
+        "key": "Khung kỹ thuật",
+        "value": "Thép hộp mạ kẽm, hộp che vật liệu Alu hoặc thạch cao, màu sắc đa dạng (tùy chọn)"
+      },
+      {
+        "key": "Thiết bị nâng hạ",
+        "value": "HL Technology Taiwan"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "CỬA CUỐN ĐỨC C505e",
+    "slug": "cua-cuon-duc-c505e",
+    "description": "Cửa cuốn đức c505e",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 3,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Kích thước tiêu chuẩn",
+        "value": "Min: 2000 × 1500 mm, Max: 5000 × 5000 mm"
+      },
+      {
+        "key": "Vật liệu nan cửa",
+        "value": "Hợp kim nhôm 6063"
+      },
+      {
+        "key": "Bề mặt",
+        "value": "Xử lý hóa chất, mạ cromate chống oxy hóa, sơn tĩnh điện ngoài trời Akzo Nobel"
+      },
+      {
+        "key": "Kiểu nan cửa",
+        "value": "Nan đơn có roăng chống ồn, cấu tạo 2 lớp, 2 vít, chân dày, có thanh chống ngang, màu ghi sần sang trọng, bề mặt có sọc, ô thoáng hình oval"
+      },
+      {
+        "key": "Độ dày nan cửa",
+        "value": "1.2 – 1.8 mm, khả năng chịu lực cao"
+      },
+      {
+        "key": "Trục cửa",
+        "value": "Trục mạ kẽm hoặc thép mạ màu fi 114, độ dày 1.7 – 2.5 mm tùy diện tích cửa, gắn buly nhựa PA liên kết chắc chắn"
+      },
+      {
+        "key": "Ray cửa",
+        "value": "Ray UTK76s bằng nhôm 6063, cấu tạo dạng hộp, lưng 2 lớp, có roăng chống ăn mòn"
+      },
+      {
+        "key": "Khung kỹ thuật",
+        "value": "Thép hộp mạ kẽm, hộp che vật liệu Alu hoặc thạch cao, màu sắc đa dạng (tùy chọn)"
+      },
+      {
+        "key": "Thiết bị nâng hạ",
+        "value": "YH liên doanh"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "CỬA CUỐN ĐỨC C507",
+    "slug": "cua-cuon-duc-c507",
+    "description": "Cửa cuốn đức c507",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 3,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Kích thước tiêu chuẩn",
+        "value": "Min: 2000 × 2000 mm, Max: 6000 × 6000 mm"
+      },
+      {
+        "key": "Vật liệu nan cửa",
+        "value": "Hợp kim nhôm 6063"
+      },
+      {
+        "key": "Bề mặt",
+        "value": "Xử lý hóa chất, mạ cromate chống oxy hóa, sơn tĩnh điện ngoài trời Akzo Nobel"
+      },
+      {
+        "key": "Kiểu nan cửa",
+        "value": "Nan đơn cấu tạo 2 lớp, 2 vít, chân dày, móc dày 1.3 mm, có thanh chống ngang, màu ghi sần sang trọng, bề mặt có sọc, ô thoáng hình oval"
+      },
+      {
+        "key": "Độ dày nan cửa",
+        "value": "1.2 – 2.0 mm, khả năng chịu lực cao"
+      },
+      {
+        "key": "Trục cửa",
+        "value": "Trục mạ kẽm hoặc thép mạ màu fi 114, độ dày 1.8 – 2.8 mm tùy diện tích cửa, gắn buly nhựa PA liên kết chắc chắn"
+      },
+      {
+        "key": "Ray cửa",
+        "value": "Ray UTK76s bằng nhôm 6063, cấu tạo dạng hộp, lưng 2 lớp, có roăng chống ăn mòn"
+      },
+      {
+        "key": "Khung kỹ thuật",
+        "value": "Thép hộp mạ kẽm, hộp che vật liệu Alu hoặc thạch cao, màu sắc đa dạng (tùy chọn)"
+      },
+      {
+        "key": "Thiết bị nâng hạ",
+        "value": "HL Technology Taiwan"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "CỬA CUỐN ĐỨC V508e 2.0",
+    "slug": "cua-cuon-duc-v508e-2.0",
+    "description": "Cửa cuốn đức v508e 2.0",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 3,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Kích thước tiêu chuẩn",
+        "value": "Min: 2000 × 2500 mm, Max: 6000 × 6000 mm"
+      },
+      {
+        "key": "Vật liệu nan cửa",
+        "value": "Hợp kim nhôm 6063"
+      },
+      {
+        "key": "Bề mặt",
+        "value": "Xử lý hóa chất, phủ cromate chống oxy hóa, sơn bột Akzo Nobel và phủ polyester chống phai màu, chống trầy xước"
+      },
+      {
+        "key": "Kiểu nan cửa",
+        "value": "Nan đơn có roăng chống ồn, cấu tạo 2 lớp, 2 vít, chân dày, móc siêu dày 1.4 mm, có thanh chống ngang, màu kem sần, bề mặt có sọc, ô thoáng hình thang"
+      },
+      {
+        "key": "Độ dày nan cửa",
+        "value": "1.3 – 2.3 mm, khả năng chịu lực cao, chịu va đập mạnh"
+      },
+      {
+        "key": "Trục cửa",
+        "value": "Trục mạ kẽm fi 114 hoặc trục thép mạ màu fi 140, độ dày 1.8 – 3.0 mm tùy diện tích cửa, gắn buly nhựa PA liên kết chắc chắn"
+      },
+      {
+        "key": "Ray cửa",
+        "value": "Ray UTK76s bằng nhôm 6063, cấu tạo dạng hộp, lưng 2 lớp, có roăng chống ăn mòn"
+      },
+      {
+        "key": "Khung kỹ thuật",
+        "value": "Thép hộp mạ kẽm, hộp che vật liệu Alu hoặc thạch cao, màu sắc đa dạng (tùy chọn)"
+      },
+      {
+        "key": "Thiết bị nâng hạ",
+        "value": "YH liên doanh"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "CỬA CUỐN ĐỨC V509e 2.4",
+    "slug": "cua-cuon-duc-v509e-2.4",
+    "description": "Cửa cuốn đức v509e 2.4",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 3,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Kích thước tiêu chuẩn",
+        "value": "Min: 2000 × 2500 mm, Max: 6000 × 7000 mm"
+      },
+      {
+        "key": "Vật liệu nan cửa",
+        "value": "Hợp kim nhôm 6063"
+      },
+      {
+        "key": "Bề mặt",
+        "value": "Xử lý hóa chất, mạ cromate chống oxy hóa, sơn tĩnh điện Akzo Nobel và phủ polyester chống phai màu, chống trầy xước"
+      },
+      {
+        "key": "Kiểu nan cửa",
+        "value": "Nan đơn có roăng chống ồn, cấu tạo 2 lớp, 2 vít, chân dày, có thanh chống ngang, màu cafe sữa, bề mặt có sọc, ô thoáng hình oval"
+      },
+      {
+        "key": "Độ dày nan cửa",
+        "value": "1.4 – 2.5 mm, khả năng chịu lực cao, chịu va đập mạnh"
+      },
+      {
+        "key": "Trục cửa",
+        "value": "Trục mạ kẽm fi 114 hoặc trục thép mạ màu fi 114 / fi 168, độ dày 1.8 – 3.5 mm tùy diện tích cửa, gắn buly nhựa PA liên kết chắc chắn"
+      },
+      {
+        "key": "Ray cửa",
+        "value": "Ray UTK76s bằng nhôm 6063, cấu tạo dạng hộp, lưng 2 lớp, có roăng chống ăn mòn"
+      },
+      {
+        "key": "Khung kỹ thuật",
+        "value": "Thép hộp mạ kẽm, hộp che vật liệu Alu hoặc thạch cao, màu sắc đa dạng (tùy chọn)"
+      },
+      {
+        "key": "Thiết bị nâng hạ",
+        "value": "HL Technology Taiwan"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "CỬA CUỐN ĐỨC G901ed 3.0 – SIÊU DÀY",
+    "slug": "cua-cuon-duc-g901ed-3.0-sieu-day",
+    "description": "Cửa cuốn đức g901ed 3.0 siêu dày",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 3,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Kích thước tiêu chuẩn",
+        "value": "Min: 2000 × 2500 mm, Max: 7000 × 7000 mm"
+      },
+      {
+        "key": "Vật liệu nan cửa",
+        "value": "Hợp kim nhôm 6063"
+      },
+      {
+        "key": "Bề mặt",
+        "value": "Xử lý hóa chất, mạ cromate chống oxy hóa, sơn tĩnh điện Akzo Nobel và phủ polyester chống phai màu, chống trầy xước"
+      },
+      {
+        "key": "Kiểu nan cửa",
+        "value": "Nan đơn có roăng chống ồn, cấu tạo 2 lớp, 2 vít, chân siêu dày, móc siêu dày 1.6 mm, có thanh chống ngang, màu kem sần, bề mặt có sọc, ô thoáng hình thang"
+      },
+      {
+        "key": "Độ dày nan cửa",
+        "value": "1.4 – 3.0 mm, khả năng chịu lực cao, chịu va đập mạnh"
+      },
+      {
+        "key": "Trục cửa",
+        "value": "Trục mạ kẽm hoặc trục thép mạ màu fi 114 / fi 140 / fi 168, độ dày 1.8 – 4.0 mm tùy diện tích cửa, gắn buly nhựa PA liên kết chắc chắn"
+      },
+      {
+        "key": "Ray cửa",
+        "value": "Ray UTK76s bằng nhôm 6063, cấu tạo dạng hộp, lưng 2 lớp, có roăng chống ăn mòn"
+      },
+      {
+        "key": "Khung kỹ thuật",
+        "value": "Thép hộp mạ kẽm, hộp che vật liệu Alu hoặc thạch cao, màu sắc đa dạng (tùy chọn)"
+      },
+      {
+        "key": "Thiết bị nâng hạ",
+        "value": "YH liên doanh"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "CỬA CUỐN ĐỨC V705et 3.0 – SIÊU THOÁNG",
+    "slug": "cua-cuon-duc-v705et-3.0-sieu-thoang",
+    "description": "Cửa cuốn đức v705et 3.0 siêu thoáng",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 3,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Kích thước tiêu chuẩn",
+        "value": "Min: 2500 × 2500 mm, Max: 6000 × 7000 mm"
+      },
+      {
+        "key": "Vật liệu nan cửa",
+        "value": "Hợp kim nhôm 6063"
+      },
+      {
+        "key": "Bề mặt",
+        "value": "Xử lý hóa chất, mạ cromate chống oxy hóa, sơn tĩnh điện Akzo Nobel và phủ polyester chống phai màu, chống trầy xước"
+      },
+      {
+        "key": "Kiểu nan cửa",
+        "value": "Nan kép có roăng chống ồn, cấu tạo 2 lớp, 2 vít, chân siêu dày, móc siêu dày 1.5 mm, phối 2 màu cafe và ghi sần, bề mặt có sọc, ô thoáng hình chữ nhật bo góc 14 × 90 mm tăng đối lưu không khí"
+      },
+      {
+        "key": "Độ dày nan cửa",
+        "value": "1.4 – 2.5 mm, khả năng chịu lực cao, chịu va đập mạnh"
+      },
+      {
+        "key": "Trục cửa",
+        "value": "Trục mạ kẽm hoặc trục thép mạ màu fi 114 / fi 140 / fi 168, độ dày 1.8 – 3.5 mm tùy diện tích cửa, gắn buly nhựa PA liên kết chắc chắn"
+      },
+      {
+        "key": "Ray cửa",
+        "value": "Ray UTK76s bằng nhôm 6063, cấu tạo dạng hộp, lưng 2 lớp, có roăng chống ăn mòn"
+      },
+      {
+        "key": "Khung kỹ thuật",
+        "value": "Thép hộp mạ kẽm, hộp che vật liệu Alu hoặc thạch cao, màu sắc đa dạng (tùy chọn)"
+      },
+      {
+        "key": "Thiết bị nâng hạ",
+        "value": "YH liên doanh"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "CỬA CUỐN ÚC – DÒNG PHỔ THÔNG",
+    "slug": "cua-cuon-uc-dong-pho-thong",
+    "description": "Cửa cuốn úc dòng phổ thông",
     "image": "/images/products/product-8-bg-1.png",
     "categoryId": 4,
     "imgs": {
@@ -228,13 +1376,1269 @@
       ]
     },
     "specifications": [
-      {"key": "Brand", "value": "Sony"},
-      {"key": "Model", "value": "WH-1000XM4"},
-      {"key": "Noise Cancellation", "value": "Industry-leading Hybrid ANC"},
-      {"key": "Sound Quality", "value": "40-hour battery, LDAC"},
-      {"key": "Connectivity", "value": "Bluetooth 5.0 + 3.5mm cable"},
-      {"key": "Weight", "value": "250g"},
-      {"key": "Warranty", "value": "2-year standard warranty"}
+      {
+        "key": "Thân cửa",
+        "value": "Tôn mạ màu, công nghệ Úc"
+      },
+      {
+        "key": "Độ dày cửa",
+        "value": "0.4 mm (±8%)"
+      },
+      {
+        "key": "Bề mặt",
+        "value": "Sơn bóng phủ Polyeste"
+      },
+      {
+        "key": "Phụ trợ đóng mở",
+        "value": "Thép lò xo C70, 10.000 lần đóng/mở"
+      },
+      {
+        "key": "Kích thước tối đa",
+        "value": "Rộng tối đa 4.0 m × Cao tối đa 4.0 m"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Vàng kem, xanh rêu, cà phê, ghi sáng"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "CỬA CUỐN ÚC – ECOMAX",
+    "slug": "cua-cuon-uc-ecomax",
+    "description": "Cửa cuốn úc ecomax",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 4,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Thân cửa",
+        "value": "Tôn mạ màu, công nghệ Úc"
+      },
+      {
+        "key": "Độ dày cửa",
+        "value": "0.4 mm (±8%)"
+      },
+      {
+        "key": "Bề mặt",
+        "value": "Sơn bóng phủ Polyeste"
+      },
+      {
+        "key": "Phụ trợ đóng mở",
+        "value": "Thép lò xo C70, 10.000 lần đóng/mở"
+      },
+      {
+        "key": "Kích thước tối đa",
+        "value": "Rộng tối đa 4.0 m × Cao tối đa 4.0 m"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Vàng kem, xanh rêu, cà phê, ghi sáng"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "CỬA CUỐN ÚC – NEWMAX ROLL",
+    "slug": "cua-cuon-uc-newmax-roll",
+    "description": "Cửa cuốn úc newmax roll",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 4,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Thân cửa",
+        "value": "Thép hợp kim APEX (BlueScope Steel – Australia)"
+      },
+      {
+        "key": "Độ dày cửa",
+        "value": "0.51 mm"
+      },
+      {
+        "key": "Bề mặt",
+        "value": "Sơn bóng phủ Polyeste"
+      },
+      {
+        "key": "Phụ trợ đóng mở",
+        "value": "Thép lò xo C75 thẳng đầu, 15.000 lần đóng/mở"
+      },
+      {
+        "key": "Kích thước tối đa",
+        "value": "Rộng tối đa 6 m × Cao tối đa 5 m"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Trắng ngà, vàng kem, xanh ngọc, ghi xám, cà phê"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "CỬA CUỐN ÚC – AUST ROLL CB",
+    "slug": "cua-cuon-uc-aust-roll-cb",
+    "description": "Cửa cuốn úc aust roll cb",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 4,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Thân cửa",
+        "value": "Thép hợp kim Colorbond (BlueScope Steel – Australia)"
+      },
+      {
+        "key": "Độ dày cửa",
+        "value": "0.53 mm"
+      },
+      {
+        "key": "Bề mặt",
+        "value": "Sơn bóng phủ Polyeste"
+      },
+      {
+        "key": "Phụ trợ đóng mở",
+        "value": "Thép lò xo C80 siêu bền, 20.000 lần đóng/mở"
+      },
+      {
+        "key": "Kích thước tối đa",
+        "value": "Rộng tối đa 6 m × Cao tối đa 5 m"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Trắng ngà, vàng kem, xanh lá, vân gỗ"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "CỬA CUỐN ÚC – ALUSWIN",
+    "slug": "cua-cuon-uc-aluswin",
+    "description": "Cửa cuốn úc aluswin",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 4,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Thân cửa",
+        "value": "Hợp kim nhôm 6063"
+      },
+      {
+        "key": "Độ dày",
+        "value": "6.6 kg/m²"
+      },
+      {
+        "key": "Bề mặt",
+        "value": "Sơn tĩnh điện bằng bột sơn ngoài trời cao cấp Akzo Nobel"
+      },
+      {
+        "key": "Phụ trợ đóng mở",
+        "value": "Thép lò xo C80 siêu bền, 20.000 lần đóng/mở"
+      },
+      {
+        "key": "Kích thước tối đa",
+        "value": "Rộng tối đa 4 m × Cao tối đa 5 m"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Trắng ngà, vàng kem, ghi sáng, xám"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "CỬA CUỐN SONG NGANG INOX",
+    "slug": "cua-cuon-song-ngang-inox",
+    "description": "Cửa cuốn song ngang inox",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 5,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Nan cửa",
+        "value": "Vuông 20 × 20 mm, inox dày 1.0 mm"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Inox"
+      },
+      {
+        "key": "Chế độ hoạt động",
+        "value": "Vận hành bằng motor hoặc đẩy tay"
+      },
+      {
+        "key": "Ray cửa",
+        "value": "Ray inox 60"
+      },
+      {
+        "key": "Trục cửa",
+        "value": "Phi 114 mạ kẽm"
+      },
+      {
+        "key": "V đáy",
+        "value": "Inox"
+      },
+      {
+        "key": "Motor phù hợp",
+        "value": "Lựa chọn motor có sức kéo phù hợp"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "CỬA CUỐN SONG NGANG – SƠN TĨNH ĐIỆN",
+    "slug": "cua-cuon-song-ngang-son-tinh-dien",
+    "description": "Cửa cuốn song ngang sơn tĩnh điện",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 5,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Nan cửa",
+        "value": "Phi tròn 19 mm, dày 1.1 mm, sơn tĩnh điện"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Vàng kem, xanh ngọc, xám"
+      },
+      {
+        "key": "Chế độ hoạt động",
+        "value": "Vận hành bằng motor hoặc đẩy tay"
+      },
+      {
+        "key": "Ray cửa",
+        "value": "Ray sắt 60 hoặc 70 roăng (sơn xám lót)"
+      },
+      {
+        "key": "Trục cửa",
+        "value": "Phi 114 mạ kẽm"
+      },
+      {
+        "key": "V đáy",
+        "value": "V40 sơn xám lót"
+      },
+      {
+        "key": "Motor phù hợp",
+        "value": "Lựa chọn motor có sức kéo phù hợp"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "CỬA CUỐN SIÊU TRƯỜNG – CỬA CÔNG NGHIỆP",
+    "slug": "cua-cuon-sieu-truong-cua-cong-nghiep",
+    "description": "Cửa cuốn siêu trường cửa công nghiệp",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 5,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Dòng sản phẩm",
+        "value": "Cửa cuốn Siêu Trường – Cửa công nghiệp"
+      },
+      {
+        "key": "Ứng dụng",
+        "value": "Nhà xưởng có chiều ngang quá khổ từ 8000 mm đến 15000 mm"
+      },
+      {
+        "key": "Bản lá",
+        "value": "100 mm"
+      },
+      {
+        "key": "Độ dày lá",
+        "value": "0.8 mm, 0.9 mm, 1.0 mm, 1.1 mm, 1.2 mm, 1.3 mm, 1.4 mm, 1.5 mm, 1.6 mm"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Xám, xanh, kem"
+      },
+      {
+        "key": "Trục cửa",
+        "value": "Trục 140 (2.5 ly, 3.7 ly, 4 ly), trục 168 (4 ly, 6 ly)"
+      },
+      {
+        "key": "V đáy",
+        "value": "V50"
+      },
+      {
+        "key": "Ray cửa",
+        "value": "Ray 70 roăng, ray 100, ray 120, ray 200"
+      },
+      {
+        "key": "Ô thoáng",
+        "value": "3 gió, 5 gió, 7 gió, 9 gió"
+      },
+      {
+        "key": "Motor tải trọng lớn",
+        "value": "JG 800Kg, JG 1000Kg, JG 1500Kg, JG 2000Kg"
+      },
+      {
+        "key": "Lá dày 8 dem",
+        "value": "Kích thước tối đa: Cao 6500 mm × Ngang 6000 mm"
+      },
+      {
+        "key": "Lá dày 9 dem",
+        "value": "Kích thước tối đa: Cao 6500 mm × Ngang 7500 mm"
+      },
+      {
+        "key": "Lá dày 1.0 mm",
+        "value": "Kích thước tối đa: Cao 6500 mm × Ngang 9000 mm"
+      },
+      {
+        "key": "Lá dày 1.1 mm",
+        "value": "Kích thước tối đa: Cao 6500 mm × Ngang 10000 mm"
+      },
+      {
+        "key": "Lá dày 1.2 mm",
+        "value": "Kích thước tối đa: Cao 6500 mm × Ngang 11000 mm"
+      },
+      {
+        "key": "Lá dày 1.3 mm",
+        "value": "Kích thước tối đa: Cao 6500 mm × Ngang 12000 mm"
+      },
+      {
+        "key": "Lá dày 1.4 mm",
+        "value": "Kích thước tối đa: Cao 6500 mm × Ngang 13000 mm"
+      },
+      {
+        "key": "Lá dày 1.5 mm",
+        "value": "Kích thước tối đa: Cao 6500 mm × Ngang 14000 mm"
+      },
+      {
+        "key": "Lá dày 1.6 mm",
+        "value": "Kích thước tối đa: Cao 6500 mm × Ngang 15000 mm"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "CỬA CUỐN MẮC VÕNG INOX",
+    "slug": "cua-cuon-mac-vong-inox",
+    "description": "Cửa cuốn mắc võng inox",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 5,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Nan cửa",
+        "value": "Phi tròn 13 mm, inox dày 1.0 mm"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Inox"
+      },
+      {
+        "key": "Chế độ hoạt động",
+        "value": "Vận hành bằng motor hoặc đẩy tay"
+      },
+      {
+        "key": "Ray cửa",
+        "value": "Ray inox 60"
+      },
+      {
+        "key": "Trục cửa",
+        "value": "Phi 114 mạ kẽm"
+      },
+      {
+        "key": "V đáy",
+        "value": "Inox"
+      },
+      {
+        "key": "Motor phù hợp",
+        "value": "Lựa chọn motor có sức kéo phù hợp"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "CỬA CUỐN MẮC VÕNG – SƠN TĨNH ĐIỆN",
+    "slug": "cua-cuon-mac-vong-son-tinh-dien",
+    "description": "Cửa cuốn mắc võng sơn tĩnh điện",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 5,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Nan cửa",
+        "value": "Phi tròn 14 mm, dày 1.1 mm, sơn tĩnh điện"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "Vàng kem, xanh ngọc, xám"
+      },
+      {
+        "key": "Chế độ hoạt động",
+        "value": "Vận hành bằng motor hoặc đẩy tay"
+      },
+      {
+        "key": "Ray cửa",
+        "value": "Ray sắt 60 hoặc 70 roăng (sơn xám lót)"
+      },
+      {
+        "key": "Trục cửa",
+        "value": "Phi 114 mạ kẽm"
+      },
+      {
+        "key": "V đáy",
+        "value": "V40 sơn xám lót"
+      },
+      {
+        "key": "Motor phù hợp",
+        "value": "Lựa chọn motor có sức kéo phù hợp"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "CỬA KÉO ĐÀI LOAN – U 1LY1",
+    "slug": "cua-keo-dai-loan-u-1ly1",
+    "description": "Cửa kéo đài loan u 1ly1",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 6,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Kích thước cửa",
+        "value": "Cao 2900 mm × Rộng 4000 mm"
+      },
+      {
+        "key": "Loại U",
+        "value": "U dày 1Ly1 – Dòng đặc biệt"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "U xanh, nhíp trắng đặc, lá xanh"
+      },
+      {
+        "key": "Chiều cao lá",
+        "value": "2500 mm (hở tiêu chuẩn 400 mm)"
+      },
+      {
+        "key": "Nhíp tiêu chuẩn",
+        "value": "4 hàng"
+      },
+      {
+        "key": "Kiểu cửa",
+        "value": "Cửa 2 cánh, tay hộp kem"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "CỬA KÉO ĐÀI LOAN – U 7 DEM",
+    "slug": "cua-keo-dai-loan-u-7-dem",
+    "description": "Cửa kéo đài loan u 7 dem",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 6,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Kích thước cửa",
+        "value": "Cao 2800 mm × Rộng 4800 mm"
+      },
+      {
+        "key": "Loại U",
+        "value": "U dày 7 dem – Dòng tiêu chuẩn"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "U xanh, nhíp trắng đặc, lá xanh"
+      },
+      {
+        "key": "Chiều cao lá",
+        "value": "2400 mm (hở tiêu chuẩn 400 mm)"
+      },
+      {
+        "key": "Nhíp tiêu chuẩn",
+        "value": "4 hàng"
+      },
+      {
+        "key": "Kiểu cửa",
+        "value": "Cửa 2 cánh, tay hộp xám"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "CỬA KÉO ĐÀI LOAN – U THƯỜNG",
+    "slug": "cua-keo-dai-loan-u-thuong",
+    "description": "Cửa kéo đài loan u thường",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 6,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Kích thước cửa",
+        "value": "Cao 2500 mm × Rộng 3400 mm"
+      },
+      {
+        "key": "Loại U",
+        "value": "U thường dày 6 dem – Dòng phổ thông"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "U kem, nhíp trắng đặc, lá kem"
+      },
+      {
+        "key": "Chiều cao lá",
+        "value": "2100 mm (hở tiêu chuẩn 400 mm)"
+      },
+      {
+        "key": "Nhíp tiêu chuẩn",
+        "value": "3.5 hàng"
+      },
+      {
+        "key": "Kiểu cửa",
+        "value": "Cửa 2 cánh, tay hộp xám"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "CỬA KÉO ĐÀI LOAN – U 8 DEM",
+    "slug": "cua-keo-dai-loan-u-8-dem",
+    "description": "Cửa kéo đài loan u 8 dem",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 6,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Kích thước cửa",
+        "value": "Cao 2800 mm × Rộng 4000 mm"
+      },
+      {
+        "key": "Loại U",
+        "value": "U dày 8 dem – Dòng đặc biệt"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "U xám, nhíp trắng đặc, lá xám"
+      },
+      {
+        "key": "Chiều cao lá",
+        "value": "2400 mm (hở tiêu chuẩn 400 mm)"
+      },
+      {
+        "key": "Nhíp tiêu chuẩn",
+        "value": "4 hàng"
+      },
+      {
+        "key": "Kiểu cửa",
+        "value": "Cửa 2 cánh, tay hộp ghi sần"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "CỬA KÉO ĐÀI LOAN – U 9 DEM",
+    "slug": "cua-keo-dai-loan-u-9-dem",
+    "description": "Cửa kéo đài loan u 9 dem",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 6,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Kích thước cửa",
+        "value": "Cao 2900 mm × Rộng 4800 mm"
+      },
+      {
+        "key": "Loại U",
+        "value": "U dày 9 dem – Dòng đặc biệt"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "U xanh, nhíp trắng đặc, lá kem"
+      },
+      {
+        "key": "Chiều cao lá",
+        "value": "2500 mm (hở tiêu chuẩn 400 mm)"
+      },
+      {
+        "key": "Nhíp tiêu chuẩn",
+        "value": "4 hàng"
+      },
+      {
+        "key": "Kiểu cửa",
+        "value": "Cửa 2 cánh, tay hộp xanh"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "CỬA KÉO ĐÀI LOAN – U 1 LY",
+    "slug": "cua-keo-dai-loan-u-1-ly",
+    "description": "Cửa kéo đài loan u 1 ly",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 6,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Kích thước cửa",
+        "value": "Cao 2900 mm × Rộng 4400 mm"
+      },
+      {
+        "key": "Loại U",
+        "value": "U dày 1 Ly – Dòng đặc biệt"
+      },
+      {
+        "key": "Màu sắc",
+        "value": "U kem, nhíp trắng đặc, lá kem"
+      },
+      {
+        "key": "Chiều cao lá",
+        "value": "2500 mm (hở tiêu chuẩn 400 mm)"
+      },
+      {
+        "key": "Nhíp tiêu chuẩn",
+        "value": "4 hàng"
+      },
+      {
+        "key": "Kiểu cửa",
+        "value": "Cửa 2 cánh, tay hộp kem"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "BỘ ĐIỀU KHIỂN CỬA CUỐN ENGINES",
+    "slug": "bo-dieu-khien-cua-cuon-engines",
+    "description": "Bộ điều khiển cửa cuốn engines",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 7,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Hãng sản xuất",
+        "value": "Engines"
+      },
+      {
+        "key": "Loại mã",
+        "value": "Mã gạt"
+      },
+      {
+        "key": "Tần số sóng",
+        "value": "315 Mhz, motor ống"
+      },
+      {
+        "key": "Phím bấm",
+        "value": "4 phím (Lên, xuống, dừng, khóa)"
+      },
+      {
+        "key": "Thiết kế",
+        "value": "Nhựa trắng"
+      },
+      {
+        "key": "Chống nước",
+        "value": "Không"
+      },
+      {
+        "key": "Pin sử dụng",
+        "value": "12V-A27"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "BỘ ĐIỀU KHIỂN CỬA CUỐN YH TAIWAN",
+    "slug": "bo-dieu-khien-cua-cuon-yh-taiwan",
+    "description": "Bộ điều khiển cửa cuốn yh taiwan",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 7,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Hãng sản xuất",
+        "value": "YH"
+      },
+      {
+        "key": "Loại mã",
+        "value": "Mã nhảy"
+      },
+      {
+        "key": "Tần số sóng",
+        "value": "315 Mhz"
+      },
+      {
+        "key": "Phím bấm",
+        "value": "4 phím (Lên, xuống, dừng, khóa)"
+      },
+      {
+        "key": "Thiết kế",
+        "value": "Nhựa đen, phím nhựa trong êm tay"
+      },
+      {
+        "key": "Chống nước",
+        "value": "Không"
+      },
+      {
+        "key": "Pin sử dụng",
+        "value": "12V-A23"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "BỘ ĐIỀU KHIỂN CỬA CUỐN YH LIÊN DOANH",
+    "slug": "bo-dieu-khien-cua-cuon-yh-lien-doanh",
+    "description": "Bộ điều khiển cửa cuốn yh liên doanh",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 7,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Hãng sản xuất",
+        "value": "YH"
+      },
+      {
+        "key": "Loại mã",
+        "value": "Mã gạt trên hộp nhận và chìa"
+      },
+      {
+        "key": "Tần số sóng",
+        "value": "433 Mhz"
+      },
+      {
+        "key": "Phím bấm",
+        "value": "4 phím (Lên, xuống, dừng, khóa)"
+      },
+      {
+        "key": "Thiết kế",
+        "value": "Nhựa xanh, inox"
+      },
+      {
+        "key": "Chống nước",
+        "value": "Không"
+      },
+      {
+        "key": "Pin sử dụng",
+        "value": "12V-A23"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "BỘ ĐIỀU KHIỂN CỬA CUỐN JG",
+    "slug": "bo-dieu-khien-cua-cuon-jg",
+    "description": "Bộ điều khiển cửa cuốn jg",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 7,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Hãng sản xuất",
+        "value": "JG"
+      },
+      {
+        "key": "Loại mã",
+        "value": "Mã gạt trên hộp nhận và chìa"
+      },
+      {
+        "key": "Tần số sóng",
+        "value": "310 Mhz"
+      },
+      {
+        "key": "Phím bấm",
+        "value": "4 phím (Lên, xuống, dừng, khóa)"
+      },
+      {
+        "key": "Thiết kế",
+        "value": "Nhựa đen, nút nhựa màu"
+      },
+      {
+        "key": "Chống nước",
+        "value": "Không"
+      },
+      {
+        "key": "Pin sử dụng",
+        "value": "12V-A23"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "BỘ ĐIỀU KHIỂN CỬA CUỐN HL",
+    "slug": "bo-dieu-khien-cua-cuon-hl",
+    "description": "Bộ điều khiển cửa cuốn hl",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 7,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Hãng sản xuất",
+        "value": "HL"
+      },
+      {
+        "key": "Loại mã",
+        "value": "Mã gạt trên hộp nhận và chìa"
+      },
+      {
+        "key": "Tần số sóng",
+        "value": "433 Mhz"
+      },
+      {
+        "key": "Phím bấm",
+        "value": "4 phím (Lên, xuống, dừng, khóa)"
+      },
+      {
+        "key": "Thiết kế",
+        "value": "Nhựa đen, inox"
+      },
+      {
+        "key": "Chống nước",
+        "value": "Không"
+      },
+      {
+        "key": "Pin sử dụng",
+        "value": "12V-A23"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "MOTOR CỬA CUỐN YH 500KG LIÊN DOANH",
+    "slug": "motor-cua-cuon-yh-500kg-lien-doanh",
+    "description": "Motor cửa cuốn yh 500kg liên doanh",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 8,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Thương hiệu",
+        "value": "YH"
+      },
+      {
+        "key": "Điện áp",
+        "value": "220 Vac"
+      },
+      {
+        "key": "Tần số",
+        "value": "50/60 Hz"
+      },
+      {
+        "key": "Công suất",
+        "value": "1/2 HP"
+      },
+      {
+        "key": "Dòng điện",
+        "value": "3.5A"
+      },
+      {
+        "key": "Lực tải",
+        "value": "500 Kg"
+      },
+      {
+        "key": "Trọng lượng",
+        "value": "10 Kg"
+      },
+      {
+        "key": "Giới hạn hành trình",
+        "value": "6 m"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "MOTOR CỬA CUỐN YH 300KG LIÊN DOANH",
+    "slug": "motor-cua-cuon-yh-300kg-lien-doanh",
+    "description": "Motor cửa cuốn yh 300kg liên doanh",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 8,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Thương hiệu",
+        "value": "YH"
+      },
+      {
+        "key": "Điện áp",
+        "value": "220 Vac"
+      },
+      {
+        "key": "Tần số",
+        "value": "50/60 Hz"
+      },
+      {
+        "key": "Công suất",
+        "value": "1/4 HP"
+      },
+      {
+        "key": "Dòng điện",
+        "value": "2.5A"
+      },
+      {
+        "key": "Lực tải",
+        "value": "300 Kg"
+      },
+      {
+        "key": "Trọng lượng",
+        "value": "10 Kg"
+      },
+      {
+        "key": "Giới hạn hành trình",
+        "value": "6 m"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "MOTOR CỬA CUỐN HL 400KG",
+    "slug": "motor-cua-cuon-hl-400kg",
+    "description": "Motor cửa cuốn hl 400kg",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 8,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": []
+  },
+  {
+    "id": 47,
+    "title": "MOTOR CỬA CUỐN HL 600KG",
+    "slug": "",
+    "description": "",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 8,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Thương hiệu",
+        "value": "HL"
+      },
+      {
+        "key": "Nguồn điện",
+        "value": "220 Vac (50-60 Hz)"
+      },
+      {
+        "key": "Công suất",
+        "value": "1/4 HP"
+      },
+      {
+        "key": "Dòng điện khởi động",
+        "value": "4A"
+      },
+      {
+        "key": "Dòng điện hoạt động",
+        "value": "2A"
+      },
+      {
+        "key": "Momen xoắn",
+        "value": "168 N.m"
+      },
+      {
+        "key": "Tải trọng tối đa",
+        "value": "400 Kg"
+      },
+      {
+        "key": "Tốc độ vận hành",
+        "value": "5.4 vòng/phút"
+      },
+      {
+        "key": "Chiều cao hành trình",
+        "value": "6 m"
+      },
+      {
+        "key": "Nhiệt độ hoạt động",
+        "value": "-5°C đến 50°C"
+      },
+      {
+        "key": "Chiều dài dây bấm tường",
+        "value": "2 m"
+      },
+      {
+        "key": "Chiều dài xích kéo tay",
+        "value": "3 m"
+      },
+      {
+        "key": "Trọng lượng",
+        "value": "10 Kg"
+      },
+      {
+        "key": "Mặt bích",
+        "value": "330 × 530 × 4.0 mm"
+      },
+      {
+        "key": "Ống trục",
+        "value": "Ø 114 mm"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "MOTOR CỬA CUỐN JG 500 KG",
+    "slug": "motor-cua-cuon-jg-500kg",
+    "description": "Motor cửa cuốn jg 500kg",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 8,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Trọng lượng",
+        "value": "12 Kg"
+      },
+      {
+        "key": "Sức nâng",
+        "value": "500 Kg"
+      },
+      {
+        "key": "Điện áp",
+        "value": "220V"
+      },
+      {
+        "key": "Công suất động cơ",
+        "value": "370W"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "MOTOR CỬA CUỐN JG 300 KG",
+    "slug": "motor-cua-cuon-jg-300kg",
+    "description": "Motor cửa cuốn jg 300kg",
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 8,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {
+        "key": "Sức nâng",
+        "value": "300 Kg"
+      },
+      {
+        "key": "Điện áp",
+        "value": "220V"
+      },
+      {
+        "key": "Công suất động cơ",
+        "value": "180W"
+      }
     ]
   }
 ]

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { menuData } from "./menuData";
-import Image from "next/image";
+import { SITE_NAME } from "@/lib/site";
 
 function isNavActive(pathname: string, itemPath: string): boolean {
   if (itemPath === "/") return pathname === "/";
@@ -49,13 +49,11 @@ const Header = () => {
             stickyMenu ? "py-4" : "py-6"
           }`}
         >
-          <Link className="relative z-10 flex-shrink-0" href="/">
-            <Image
-              src="/images/logo/logo.svg"
-              alt="Logo"
-              width={219}
-              height={36}
-            />
+          <Link
+            className="relative z-10 flex-shrink-0 font-semibold text-lg sm:text-xl xl:text-2xl text-dark tracking-tight hover:text-blue ease-out duration-200 leading-snug"
+            href="/"
+          >
+            {SITE_NAME}
           </Link>
 
           <nav

@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 
 import { useModalContext } from "@/app/context/QuickViewModalContext";
 import { AppDispatch, useAppSelector } from "@/redux/store";
@@ -8,6 +8,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePreviewSlider } from "@/app/context/PreviewSliderContext";
 import { updateproductDetails } from "@/redux/features/product-details";
+import {
+  getProductPreviewUrls,
+  getProductThumbnailUrls,
+} from "@/utils/productImage";
 
 const QuickViewModal = () => {
   const { isModalOpen, closeModal } = useModalContext();
@@ -19,6 +23,15 @@ const QuickViewModal = () => {
   // get the product data
   const product = useAppSelector((state) => state.quickViewReducer.value);
 
+  const previewUrls = useMemo(
+    () => getProductPreviewUrls(product),
+    [product.id, product.image, product.imgs]
+  );
+  const thumbnailUrls = useMemo(
+    () => getProductThumbnailUrls(product),
+    [product.id, product.image, product.imgs]
+  );
+
   const [activePreview, setActivePreview] = useState(0);
 
   const prevModalOpen = useRef(false);
@@ -26,6 +39,12 @@ const QuickViewModal = () => {
   useEffect(() => {
     setActivePreview(0);
   }, [product.id]);
+
+  useEffect(() => {
+    setActivePreview((i) =>
+      Math.min(i, Math.max(0, previewUrls.length - 1))
+    );
+  }, [previewUrls.length]);
 
   useEffect(() => {
     if (isModalOpen && !prevModalOpen.current) {
@@ -36,7 +55,7 @@ const QuickViewModal = () => {
 
   /** Mở lightbox toàn màn hình; Quick View vẫn mở phía sau (z-index preview cao hơn) */
   const handlePreviewSlider = () => {
-    const previews = product?.imgs?.previews?.filter(Boolean) ?? [];
+    const previews = getProductPreviewUrls(product);
     if (!previews.length) return;
 
     dispatch(updateproductDetails(product));
@@ -107,7 +126,7 @@ const QuickViewModal = () => {
             <div className="max-w-[526px] w-full">
               <div className="flex gap-5">
                 <div className="flex flex-col gap-5">
-                  {product.imgs?.thumbnails?.map((img, key) => (
+                  {thumbnailUrls.map((img, key) => (
                     <button
                       onClick={() => setActivePreview(key)}
                       key={key}
@@ -150,15 +169,15 @@ const QuickViewModal = () => {
                       </svg>
                     </button>
 
-                    {product?.imgs?.previews?.[activePreview] && (
+                    {previewUrls[activePreview] ? (
                       <Image
-                        key={`qv-main-${product.id}-${activePreview}-${product.imgs.previews[activePreview]}`}
-                        src={product.imgs.previews[activePreview]}
+                        key={`qv-main-${product.id}-${activePreview}-${previewUrls[activePreview]}`}
+                        src={previewUrls[activePreview]}
                         alt="products-details"
                         width={400}
                         height={400}
                       />
-                    )}
+                    ) : null}
                   </div>
                 </div>
               </div>
