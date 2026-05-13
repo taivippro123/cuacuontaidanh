@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1,
+    "title": "MR BEAST HV-G69 USB Gamepad",
+    "slug": "havit-hv-g69-usb-gamepad",
+    "description": "Premium USB gamepad with ergonomic design and dual vibration feedback",
+    "price": 59.0,
+    "discountedPrice": 29.0,
+    "reviews": 15,
+    "image": "/images/products/product-1-bg-1.png",
+    "categoryId": 3,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-1-sm-1.png",
+        "/images/products/product-1-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-1-bg-1.png",
+        "/images/products/product-1-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {"key": "Brand", "value": "MR BEAST"},
+      {"key": "Model", "value": "HV-G69"},
+      {"key": "Connection Type", "value": "USB 2.0"},
+      {"key": "Compatibility", "value": "Windows, macOS, Linux"},
+      {"key": "Features", "value": "Dual Vibration, Ergonomic Design"}
+    ]
+  },
+  {
+    "id": 2,
+    "title": "iPhone 14 Plus, 6/128GB",
+    "slug": "iphone-14-plus-6-128gb",
+    "description": "Latest iPhone with advanced camera system and A16 Bionic chip",
+    "price": 899.0,
+    "discountedPrice": 99.0,
+    "reviews": 5,
+    "image": "/images/products/product-2-bg-1.png",
+    "categoryId": 5,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-2-sm-1.png",
+        "/images/products/product-2-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-2-bg-1.png",
+        "/images/products/product-2-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {"key": "Brand", "value": "Apple"},
+      {"key": "Model", "value": "iPhone 14 Plus"},
+      {"key": "Display Size", "value": "6.7 inches"},
+      {"key": "Display Type", "value": "Super Retina XDR OLED, HDR10"},
+      {"key": "Display Resolution", "value": "1284 x 2778 pixels, 19.5:9 ratio"},
+      {"key": "Chipset", "value": "Apple A16 Bionic (5 nm)"},
+      {"key": "Memory", "value": "6GB RAM"}
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Apple iMac M1 24-inch 2021",
+    "slug": "apple-imac-m1-24-inch-2021",
+    "description": "Powerful all-in-one desktop with stunning Retina display and M1 processor",
+    "price": 59.0,
+    "discountedPrice": 29.0,
+    "reviews": 5,
+    "image": "/images/products/product-3-bg-1.png",
+    "categoryId": 2,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-3-sm-1.png",
+        "/images/products/product-3-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-3-bg-1.png",
+        "/images/products/product-3-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {"key": "Brand", "value": "Apple"},
+      {"key": "Model", "value": "iMac 24-inch M1"},
+      {"key": "Display Size", "value": "24 inches"},
+      {"key": "Display Resolution", "value": "4480 x 2520 pixels, 4.5K Retina"},
+      {"key": "Processor", "value": "Apple M1 Chip (8-core)"},
+      {"key": "Memory", "value": "8GB unified memory"},
+      {"key": "Storage", "value": "256GB or 512GB SSD"}
+    ]
+  },
+  {
+    "id": 4,
+    "title": "MacBook Air M1 chip, 8/256GB",
+    "slug": "macbook-air-m1-chip-8-256gb",
+    "description": "Ultra-thin and lightweight laptop with exceptional performance and battery life",
+    "price": 59.0,
+    "discountedPrice": 29.0,
+    "reviews": 6,
+    "image": "/images/products/product-4-bg-1.png",
+    "categoryId": 2,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-4-sm-1.png",
+        "/images/products/product-4-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-4-bg-1.png",
+        "/images/products/product-4-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {"key": "Brand", "value": "Apple"},
+      {"key": "Model", "value": "MacBook Air M1"},
+      {"key": "Display Size", "value": "13.3 inches"},
+      {"key": "Display Type", "value": "Liquid Retina IPS"},
+      {"key": "Processor", "value": "Apple M1 Chip (8-core)"},
+      {"key": "Memory", "value": "8GB unified memory"},
+      {"key": "Storage", "value": "256GB SSD"}
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Apple Watch Ultra",
+    "slug": "apple-watch-ultra",
+    "description": "Advanced smartwatch with health tracking and long battery life",
+    "price": 99.0,
+    "discountedPrice": 29.0,
+    "reviews": 3,
+    "image": "/images/products/product-5-bg-1.png",
+    "categoryId": 6,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-5-sm-1.png",
+        "/images/products/product-5-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-5-bg-1.png",
+        "/images/products/product-5-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {"key": "Brand", "value": "Apple"},
+      {"key": "Model", "value": "Apple Watch Ultra"},
+      {"key": "Display Size", "value": "49mm"},
+      {"key": "Display Type", "value": "Always-On Retina LTPO OLED"},
+      {"key": "Water Resistance", "value": "100m Depth Rating"},
+      {"key": "Battery Life", "value": "Up to 2 days"},
+      {"key": "Processor", "value": "Apple S9 Chip"}
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Logitech MX Master 3 Mouse",
+    "slug": "logitech-mx-master-3-mouse",
+    "description": "Professional-grade wireless mouse with precision tracking and customizable buttons",
+    "price": 59.0,
+    "discountedPrice": 29.0,
+    "reviews": 15,
+    "image": "/images/products/product-6-bg-1.png",
+    "categoryId": 4,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-6-sm-1.png",
+        "/images/products/product-6-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-6-bg-1.png",
+        "/images/products/product-6-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {"key": "Brand", "value": "Logitech"},
+      {"key": "Model", "value": "MX Master 3"},
+      {"key": "Connectivity", "value": "2.4GHz wireless + Bluetooth"},
+      {"key": "Sensor", "value": "4000 DPI"},
+      {"key": "Buttons", "value": "8 programmable buttons"},
+      {"key": "Battery Life", "value": "Up to 70 days"},
+      {"key": "Compatibility", "value": "Windows, macOS, Linux"}
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Samsung 55-inch QLED TV",
+    "slug": "samsung-55-inch-qled-tv",
+    "description": "4K QLED television with quantum dot technology and smart features",
+    "price": 799.0,
+    "discountedPrice": 549.0,
+    "reviews": 8,
+    "image": "/images/products/product-7-bg-1.png",
+    "categoryId": 1,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-7-sm-1.png",
+        "/images/products/product-7-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-7-bg-1.png",
+        "/images/products/product-7-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {"key": "Brand", "value": "Samsung"},
+      {"key": "Model", "value": "55\" QLED"},
+      {"key": "Display Size", "value": "55 inches"},
+      {"key": "Resolution", "value": "4K UHD (3840 x 2160)"},
+      {"key": "Display Type", "value": "QLED with Quantum Dot"},
+      {"key": "Refresh Rate", "value": "120Hz"},
+      {"key": "Smart Features", "value": "Tizen OS with apps"}
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Sony WH-1000XM4 Headphones",
+    "slug": "sony-wh-1000xm4-headphones",
+    "description": "Industry-leading noise-canceling headphones with premium sound quality",
+    "price": 349.0,
+    "discountedPrice": 248.0,
+    "reviews": 12,
+    "image": "/images/products/product-8-bg-1.png",
+    "categoryId": 4,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/product-8-sm-1.png",
+        "/images/products/product-8-sm-2.png"
+      ],
+      "previews": [
+        "/images/products/product-8-bg-1.png",
+        "/images/products/product-8-bg-2.png"
+      ]
+    },
+    "specifications": [
+      {"key": "Brand", "value": "Sony"},
+      {"key": "Model", "value": "WH-1000XM4"},
+      {"key": "Noise Cancellation", "value": "Industry-leading Hybrid ANC"},
+      {"key": "Sound Quality", "value": "40-hour battery, LDAC"},
+      {"key": "Connectivity", "value": "Bluetooth 5.0 + 3.5mm cable"},
+      {"key": "Weight", "value": "250g"},
+      {"key": "Warranty", "value": "2-year standard warranty"}
+    ]
+  }
+]

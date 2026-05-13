@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Electronics",
+    "slug": "electronics"
+  },
+  {
+    "id": 2,
+    "title": "Computers",
+    "slug": "computers"
+  },
+  {
+    "id": 3,
+    "title": "Gaming",
+    "slug": "gaming"
+  },
+  {
+    "id": 4,
+    "title": "Accessories",
+    "slug": "accessories"
+  },
+  {
+    "id": 5,
+    "title": "Mobile Devices",
+    "slug": "mobile-devices"
+  },
+  {
+    "id": 6,
+    "title": "Wearables",
+    "slug": "wearables"
+  }
+]
