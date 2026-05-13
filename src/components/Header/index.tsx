@@ -125,7 +125,7 @@ const Header = () => {
                   24/7 SUPPORT
                 </span>
                 <p className="font-medium text-custom-sm text-dark">
-                  (+84) 919200389
+                  (+84) 966928615
                 </p>
               </div>
             </div>

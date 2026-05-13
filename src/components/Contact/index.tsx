@@ -61,7 +61,7 @@ const Contact = () => {
                         fill="#3C50E0"
                       />
                     </svg>
-                      Số điện thoại/Zalo: 0919200389
+                      Số điện thoại/Zalo: 0966928615
                   </p>
 
                   <p className="flex gap-4">
