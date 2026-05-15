@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const SingleItem = ({ item }: { item: Category }) => {
   const href = item.slug
-    ? `/shop-with-sidebar?category=${encodeURIComponent(item.slug)}`
-    : "/shop-with-sidebar";
+    ? `/san-pham?category=${encodeURIComponent(item.slug)}`
+    : "/san-pham";
 
   return (
     <Link

@@ -708,25 +708,6 @@
     ]
   },
   {
-    "id": 10,
-    "title": "",
-    "slug": "",
-    "description": "",
-    "image": "/images/products/product-8-bg-1.png",
-    "categoryId": 2,
-    "imgs": {
-      "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
-      ],
-      "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
-      ]
-    },
-    "specifications": []
-  },
-  {
     "id": 11,
     "title": "CỬA CUỐN ĐÀI LOAN – 7 DEM",
     "slug": "cua-cuon-dai-loan-7-dem",

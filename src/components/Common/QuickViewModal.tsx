@@ -337,7 +337,7 @@ const QuickViewModal = () => {
 
               <div className="flex flex-wrap items-center gap-4">
                 <Link
-                  href={`/shop-details/${product.slug ?? ""}`}
+                  href={`/san-pham/${product.slug ?? ""}`}
                   onClick={() => {
                     dispatch(updateproductDetails(product));
                     closeModal();

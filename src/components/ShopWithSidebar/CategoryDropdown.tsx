@@ -19,7 +19,7 @@ const CategoryItem = ({
   selected: boolean;
 }) => {
   const href = category.slug
-    ? `/shop-with-sidebar?category=${encodeURIComponent(category.slug)}`
+    ? `/san-pham?category=${encodeURIComponent(category.slug)}`
     : null;
 
   const rowClass = `${

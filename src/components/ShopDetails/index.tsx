@@ -75,7 +75,7 @@ const ShopDetails = ({ slug }: ShopDetailsProps) => {
 
   return (
     <>
-      <Breadcrumb title={"Shop Details"} pages={["shop details"]} />
+      <Breadcrumb title={"Chi tiết sản phẩm"} pages={["Chi tiết sản phẩm"]} />
 
       {loading ? (
         <div className="flex items-center justify-center py-40">

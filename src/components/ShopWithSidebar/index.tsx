@@ -178,8 +178,8 @@ const ShopWithSidebar = ({ initialCategorySlug }: ShopWithSidebarProps) => {
   return (
     <>
       <Breadcrumb
-        title={"Xem toàn bộ sản phẩm"}
-        pages={["shop", "/", "shop with sidebar"]}
+        title={"Sản phẩm"}
+        pages={["Sản phẩm"]}
       />
       <section className="overflow-hidden relative pb-20 pt-5 lg:pt-20 xl:pt-28 bg-[#f3f4f6]">
         <div className="max-w-[1170px] w-full mx-auto px-4 sm:px-8 xl:px-0">
@@ -231,7 +231,7 @@ const ShopWithSidebar = ({ initialCategorySlug }: ShopWithSidebarProps) => {
                     <div className="flex items-center justify-between">
                       <p>Bộ lọc:</p>
                       <Link
-                        href="/shop-with-sidebar"
+                        href="/san-pham"
                         className="text-blue"
                         scroll={false}
                       >

@@ -7,11 +7,11 @@ import { SITE_NAME } from "@/lib/site";
 
 function isNavActive(pathname: string, itemPath: string): boolean {
   if (itemPath === "/") return pathname === "/";
-  if (itemPath === "/shop-with-sidebar") {
+  if (itemPath === "/san-pham") {
     return (
-      pathname.startsWith("/shop-with-sidebar") ||
-      pathname.startsWith("/shop-without-sidebar") ||
-      pathname.startsWith("/shop-details")
+      pathname.startsWith("/san-pham") ||
+      pathname.startsWith("/san-pham") ||
+      pathname.startsWith("/san-pham")
     );
   }
   if (itemPath === "/contact") return pathname.startsWith("/contact");
