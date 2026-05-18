@@ -29,6 +29,18 @@ export const SITE_PRIMARY_ORIGIN = (() => {
  */
 export const SITE_SECONDARY_ORIGIN = "https://cuacuontaidanh.vercel.app";
 
+/**
+ * Helper: Lấy domain phù hợp cho OG images.
+ * - Vercel preview: dùng .vercel.app
+ * - Production: dùng .id.vn
+ */
+export const getImageOrigin = (): string => {
+  if (process.env.VERCEL_ENV === "preview" || process.env.VERCEL_ENV === "development") {
+    return SITE_SECONDARY_ORIGIN;
+  }
+  return SITE_PRIMARY_ORIGIN;
+};
+
 export const SITE_DESCRIPTION =
   "Cửa cuốn Tài Danh cung cấp và lắp đặt cửa cuốn, cửa kéo, bình lưu điện chính hãng tại TP.HCM. Bảo hành dài hạn, hỗ trợ 24/7.";
 
@@ -64,9 +76,9 @@ export const SITE_KEYWORDS = [
 
 export const DEFAULT_OG_IMAGE = "/images/og/og-default.png";
 
-/** Helper: Tạo full URL cho OG image (dùng khi cần absolute URL) */
+/** Helper: Tạo full URL cho OG image (dùng domain phù hợp cho environment) */
 export const getFullOgImageUrl = (path: string = DEFAULT_OG_IMAGE): string => {
-  return new URL(path, SITE_PRIMARY_ORIGIN).toString();
+  return new URL(path, getImageOrigin()).toString();
 };
 
 /** Metadata dùng chung ở root layout (title template, OG mặc định, robots). */
@@ -118,7 +130,7 @@ type PageMetaInput = {
 export function pageMetadata({ title, description, path, image }: PageMetaInput): Metadata {
   const canonical = new URL(path, SITE_PRIMARY_ORIGIN).toString();
   const fullOgTitle = `${title} | ${SITE_NAME}`;
-  const ogImage = image ? new URL(image, SITE_PRIMARY_ORIGIN).toString() : getFullOgImageUrl();
+  const ogImage = image ? new URL(image, getImageOrigin()).toString() : getFullOgImageUrl();
 
   return {
     title,
@@ -167,7 +179,7 @@ export function productMetadata({
   const path = `/san-pham/${slug}`;
   const canonical = new URL(path, SITE_PRIMARY_ORIGIN).toString();
   const fullOgTitle = `${title} | ${SITE_NAME}`;
-  const ogImage = new URL(image, SITE_PRIMARY_ORIGIN).toString();
+  const ogImage = new URL(image, getImageOrigin()).toString();
 
   return {
     title,
