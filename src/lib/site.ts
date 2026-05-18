@@ -48,6 +48,8 @@ export const SITE_KEYWORDS = [
   "cửa cuốn đức",
 ];
 
+export const DEFAULT_OG_IMAGE = "/images/og/og-default.svg";
+
 /** Metadata dùng chung ở root layout (title template, OG mặc định, robots). */
 export const rootSiteMetadata: Metadata = {
   metadataBase: new URL(SITE_PRIMARY_ORIGIN),
@@ -63,11 +65,20 @@ export const rootSiteMetadata: Metadata = {
     locale: "vi_VN",
     siteName: SITE_NAME,
     description: SITE_DESCRIPTION,
+    images: [
+      {
+        url: DEFAULT_OG_IMAGE,
+        width: 1200,
+        height: 630,
+        alt: SITE_NAME,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
+    images: [DEFAULT_OG_IMAGE],
   },
   robots: {
     index: true,
@@ -81,11 +92,14 @@ type PageMetaInput = {
   description: string;
   /** Đường dẫn pathname, ví dụ `/contact` */
   path: string;
+  /** Tuỳ chọn: ảnh OG */
+  image?: string;
 };
 
-export function pageMetadata({ title, description, path }: PageMetaInput): Metadata {
+export function pageMetadata({ title, description, path, image }: PageMetaInput): Metadata {
   const canonical = new URL(path, SITE_PRIMARY_ORIGIN).toString();
   const fullOgTitle = `${title} | ${SITE_NAME}`;
+  const ogImage = image || DEFAULT_OG_IMAGE;
 
   return {
     title,
@@ -97,10 +111,69 @@ export function pageMetadata({ title, description, path }: PageMetaInput): Metad
       title: fullOgTitle,
       description,
       url: canonical,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
     },
     twitter: {
       title: fullOgTitle,
       description,
+      images: [ogImage],
+    },
+  };
+}
+
+type ProductMetaInput = {
+  slug: string;
+  title: string;
+  description: string;
+  image: string;
+  /** Tuỳ chọn: keywords */
+  keywords?: string[];
+};
+
+/** Metadata chuyên biệt cho trang sản phẩm chi tiết */
+export function productMetadata({
+  slug,
+  title,
+  description,
+  image,
+  keywords,
+}: ProductMetaInput): Metadata {
+  const path = `/san-pham/${slug}`;
+  const canonical = new URL(path, SITE_PRIMARY_ORIGIN).toString();
+  const fullOgTitle = `${title} | ${SITE_NAME}`;
+
+  return {
+    title,
+    description,
+    keywords,
+    alternates: {
+      canonical,
+    },
+    openGraph: {
+      title: fullOgTitle,
+      description,
+      url: canonical,
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: fullOgTitle,
+      description,
+      images: [image],
     },
   };
 }

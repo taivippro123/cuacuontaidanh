@@ -4,37 +4,39 @@ import Image from "next/image";
 const featureData = [
   {
     img: "/images/icons/icon-01.svg",
-    title: "Free Shipping",
-    description: "For all orders $200",
+    title: "Chính hãng",
+    description: "Sản phẩm rõ nguồn gốc",
   },
   {
     img: "/images/icons/icon-02.svg",
-    title: "1 & 1 Returns",
-    description: "Cancellation after 1 day",
+    title: "Bảo hành dài hạn",
+    description: "Chính sách minh bạch",
   },
   {
     img: "/images/icons/icon-03.svg",
-    title: "100% Secure Payments",
-    description: "Gurantee secure payments",
+    title: "Thi công nhanh",
+    description: "Khảo sát và lắp đặt tận nơi",
   },
   {
     img: "/images/icons/icon-04.svg",
-    title: "24/7 Dedicated Support",
-    description: "Anywhere & anytime",
+    title: "Hỗ trợ 24/7",
+    description: "Tư vấn kỹ thuật mọi lúc",
   },
 ];
 
 const HeroFeature = () => {
   return (
     <div className="max-w-[1060px] w-full mx-auto px-4 sm:px-8 xl:px-0">
-      <div className="flex flex-wrap items-center gap-7.5 xl:gap-12.5 mt-10">
+      <div className="mt-8 grid gap-4 rounded-xl bg-white p-4 shadow-lg sm:grid-cols-2 sm:p-5 xl:grid-cols-4">
         {featureData.map((item, key) => (
-          <div className="flex items-center gap-4" key={key}>
-            <Image src={item.img} alt="icons" width={40} height={41} />
+          <div className="flex items-center gap-3" key={key}>
+            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#EAF1FB]">
+              <Image src={item.img} alt="icons" width={24} height={24} />
+            </div>
 
             <div>
-              <h3 className="font-medium text-lg text-dark">{item.title}</h3>
-              <p className="text-sm">{item.description}</p>
+              <h3 className="font-semibold text-base text-[#0F2747]">{item.title}</h3>
+              <p className="text-xs text-[#5D6C84]">{item.description}</p>
             </div>
           </div>
         ))}
