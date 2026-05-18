@@ -30,10 +30,18 @@ export const SITE_PRIMARY_ORIGIN = (() => {
 export const SITE_SECONDARY_ORIGIN = "https://cuacuontaidanh.vercel.app";
 
 export const SITE_DESCRIPTION =
-  "Cửa cuốn Tài Danh chuyên cung cấp và thi công cửa cuốn, cửa kéo, motor, bình lưu điện chính hãng tại TP.HCM. Bảo hành dài hạn, lắp đặt tận nơi, hỗ trợ 24/7. Liên hệ tư vấn miễn phí ngay.";
+  "Cửa cuốn Tài Danh cung cấp và lắp đặt cửa cuốn, cửa kéo, bình lưu điện chính hãng tại TP.HCM. Bảo hành dài hạn, hỗ trợ 24/7.";
 
 export const SITE_KEYWORDS = [
   "cửa cuốn",
+  "cửa kéo",
+  "motor cửa cuốn",
+  "bình lưu điện cửa cuốn",
+  "phụ kiện cửa cuốn",
+  "cửa cuốn Dĩ An",
+  "cửa cuốn Bình Dương",
+  "cửa cuốn HCM",
+  "cửa cuốn Thủ Đức",
   "cửa cuốn Tài Danh",
   "lắp đặt cửa cuốn",
   "cửa cuốn id.vn",
