@@ -31,13 +31,17 @@ export const SITE_SECONDARY_ORIGIN = "https://cuacuontaidanh.vercel.app";
 
 /**
  * Helper: Lấy domain phù hợp cho OG images.
- * - Vercel preview: dùng .vercel.app
- * - Production: dùng .id.vn
+ * Vercel tự động set VERCEL_URL cho preview/prod deployments
+ * - VERCEL_URL = *.vercel.app (preview) → dùng .vercel.app
+ * - VERCEL_URL = undefined (production) → dùng .id.vn
  */
 export const getImageOrigin = (): string => {
-  if (process.env.VERCEL_ENV === "preview" || process.env.VERCEL_ENV === "development") {
-    return SITE_SECONDARY_ORIGIN;
+  // Nếu có VERCEL_URL (Vercel preview) → dùng .vercel.app
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
   }
+  
+  // Fallback: production hoặc local → dùng production domain
   return SITE_PRIMARY_ORIGIN;
 };
 
