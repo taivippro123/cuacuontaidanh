@@ -64,6 +64,11 @@ export const SITE_KEYWORDS = [
 
 export const DEFAULT_OG_IMAGE = "/images/og/og-default.png";
 
+/** Helper: Tạo full URL cho OG image (dùng khi cần absolute URL) */
+export const getFullOgImageUrl = (path: string = DEFAULT_OG_IMAGE): string => {
+  return new URL(path, SITE_PRIMARY_ORIGIN).toString();
+};
+
 /** Metadata dùng chung ở root layout (title template, OG mặc định, robots). */
 export const rootSiteMetadata: Metadata = {
   metadataBase: new URL(SITE_PRIMARY_ORIGIN),
@@ -81,7 +86,7 @@ export const rootSiteMetadata: Metadata = {
     description: SITE_DESCRIPTION,
     images: [
       {
-        url: DEFAULT_OG_IMAGE,
+        url: getFullOgImageUrl(),
         width: 1200,
         height: 630,
         alt: SITE_NAME,
@@ -92,7 +97,7 @@ export const rootSiteMetadata: Metadata = {
     card: "summary_large_image",
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
-    images: [DEFAULT_OG_IMAGE],
+    images: [getFullOgImageUrl()],
   },
   robots: {
     index: true,
@@ -113,7 +118,7 @@ type PageMetaInput = {
 export function pageMetadata({ title, description, path, image }: PageMetaInput): Metadata {
   const canonical = new URL(path, SITE_PRIMARY_ORIGIN).toString();
   const fullOgTitle = `${title} | ${SITE_NAME}`;
-  const ogImage = image || DEFAULT_OG_IMAGE;
+  const ogImage = image ? new URL(image, SITE_PRIMARY_ORIGIN).toString() : getFullOgImageUrl();
 
   return {
     title,
@@ -162,6 +167,7 @@ export function productMetadata({
   const path = `/san-pham/${slug}`;
   const canonical = new URL(path, SITE_PRIMARY_ORIGIN).toString();
   const fullOgTitle = `${title} | ${SITE_NAME}`;
+  const ogImage = new URL(image, SITE_PRIMARY_ORIGIN).toString();
 
   return {
     title,
@@ -176,7 +182,7 @@ export function productMetadata({
       url: canonical,
       images: [
         {
-          url: image,
+          url: ogImage,
           width: 1200,
           height: 630,
           alt: title,
@@ -187,7 +193,7 @@ export function productMetadata({
       card: "summary_large_image",
       title: fullOgTitle,
       description,
-      images: [image],
+      images: [ogImage],
     },
   };
 }
@@ -205,7 +211,7 @@ export function homeMetadata(): Metadata {
       url: canonical,
       images: [
         {
-          url: DEFAULT_OG_IMAGE,
+          url: getFullOgImageUrl(),
           width: 1200,
           height: 630,
           alt: SITE_NAME,
@@ -216,7 +222,7 @@ export function homeMetadata(): Metadata {
       card: "summary_large_image",
       title: SITE_FULL_TITLE,
       description: SITE_DESCRIPTION,
-      images: [DEFAULT_OG_IMAGE],
+      images: [getFullOgImageUrl()],
     },
   };
 }
