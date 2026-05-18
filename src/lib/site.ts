@@ -3,6 +3,12 @@ import type { Metadata } from "next";
 /** Tên thương hiệu — dùng cho title template và OG */
 export const SITE_NAME = "Cửa cuốn Tài Danh";
 
+/** Tagline cho title dài hơn */
+export const SITE_TAGLINE = "Cửa cuốn, cửa kéo chính hãng tại TP.HCM";
+
+/** Title đầy đủ cho trang chủ (50+ chars) */
+export const SITE_FULL_TITLE = `${SITE_NAME} - ${SITE_TAGLINE}`;
+
 /**
  * Tên miền chính (canonical / metadataBase / sitemap).
  * Ghi đè khi deploy: đặt `NEXT_PUBLIC_SITE_URL` = URL đầy đủ (vd. `https://cuacuontaidanh.id.vn`).
@@ -24,7 +30,7 @@ export const SITE_PRIMARY_ORIGIN = (() => {
 export const SITE_SECONDARY_ORIGIN = "https://cuacuontaidanh.vercel.app";
 
 export const SITE_DESCRIPTION =
-  "Cửa cuốn Tài Danh – tư vấn, cung cấp và lắp đặt cửa cuốn chất lượng, bảo hành rõ ràng.";
+  "Cửa cuốn Tài Danh chuyên cung cấp và thi công cửa cuốn, cửa kéo, motor, bình lưu điện chính hãng tại TP.HCM. Bảo hành dài hạn, lắp đặt tận nơi, hỗ trợ 24/7. Liên hệ tư vấn miễn phí ngay.";
 
 export const SITE_KEYWORDS = [
   "cửa cuốn",
@@ -48,7 +54,7 @@ export const SITE_KEYWORDS = [
   "cửa cuốn đức",
 ];
 
-export const DEFAULT_OG_IMAGE = "/images/og/og-default.svg";
+export const DEFAULT_OG_IMAGE = "/images/og/og-default.png";
 
 /** Metadata dùng chung ở root layout (title template, OG mặc định, robots). */
 export const rootSiteMetadata: Metadata = {
@@ -182,17 +188,27 @@ export function productMetadata({
 export function homeMetadata(): Metadata {
   const canonical = new URL("/", SITE_PRIMARY_ORIGIN).toString();
   return {
-    title: { absolute: SITE_NAME },
+    title: { absolute: SITE_FULL_TITLE },
     description: SITE_DESCRIPTION,
     alternates: { canonical },
     openGraph: {
-      title: SITE_NAME,
+      title: SITE_FULL_TITLE,
       description: SITE_DESCRIPTION,
       url: canonical,
+      images: [
+        {
+          url: DEFAULT_OG_IMAGE,
+          width: 1200,
+          height: 630,
+          alt: SITE_NAME,
+        },
+      ],
     },
     twitter: {
-      title: SITE_NAME,
+      card: "summary_large_image",
+      title: SITE_FULL_TITLE,
       description: SITE_DESCRIPTION,
+      images: [DEFAULT_OG_IMAGE],
     },
   };
 }
