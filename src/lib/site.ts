@@ -4,36 +4,34 @@ import type { Metadata } from "next";
 export const SITE_NAME = "Cửa cuốn Tài Danh";
 
 /** Tagline cho title dài hơn */
-export const SITE_TAGLINE = "Cửa cuốn, cửa kéo chính hãng tại TP.HCM";
+export const SITE_TAGLINE =
+  "Cửa cuốn, cửa kéo chính hãng tại TP.HCM";
 
-/** Title đầy đủ cho trang chủ (50+ chars) */
-export const SITE_FULL_TITLE = `${SITE_NAME} - ${SITE_TAGLINE}`;
+/** Title đầy đủ cho trang chủ */
+export const SITE_FULL_TITLE =
+  `${SITE_NAME} - ${SITE_TAGLINE}`;
 
 /**
- * Tên miền chính (canonical / metadataBase / sitemap).
- * Ghi đè khi deploy: đặt `NEXT_PUBLIC_SITE_URL` = URL đầy đủ (vd. `https://cuacuontaidanh.id.vn`).
+ * Domain chính
+ * Dùng vercel domain để tránh lỗi crawler OG
  */
 export const SITE_PRIMARY_ORIGIN = (() => {
   const fromEnv = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+
   if (
     fromEnv &&
-    (fromEnv.startsWith("https://") || fromEnv.startsWith("http://"))
+    (fromEnv.startsWith("https://") ||
+      fromEnv.startsWith("http://"))
   ) {
     return fromEnv.replace(/\/$/, "");
   }
-  return "https://cuacuontaidanh.id.vn";
+
+  return "https://cuacuontaidanh.vercel.app";
 })();
 
-/**
- * Tên miền phụ (Vercel). Dùng khi deploy preview; canonical vẫn trỏ về .id.vn.
- */
-export const SITE_SECONDARY_ORIGIN = "https://cuacuontaidanh.vercel.app";
-
-/**
- * Helper: OG image luôn dùng Vercel domain để social crawlers có thể truy cập
- */
+/** OG image dùng cùng domain */
 export const getImageOrigin = (): string => {
-  return SITE_SECONDARY_ORIGIN; // https://cuacuontaidanh.vercel.app
+  return SITE_PRIMARY_ORIGIN;
 };
 
 export const SITE_DESCRIPTION =
@@ -69,28 +67,44 @@ export const SITE_KEYWORDS = [
   "cửa cuốn đức",
 ];
 
-export const DEFAULT_OG_IMAGE = "/images/og/og-default.png";
+export const DEFAULT_OG_IMAGE =
+  "/images/og/og-default.png";
 
-/** Helper: Tạo full URL cho OG image (dùng domain phù hợp cho environment) */
-export const getFullOgImageUrl = (path: string = DEFAULT_OG_IMAGE): string => {
+/** Helper: tạo full URL cho OG image */
+export const getFullOgImageUrl = (
+  path: string = DEFAULT_OG_IMAGE
+): string => {
   return new URL(path, getImageOrigin()).toString();
 };
 
-/** Metadata dùng chung ở root layout (title template, OG mặc định, robots). */
+/** Metadata dùng chung */
 export const rootSiteMetadata: Metadata = {
   metadataBase: new URL(SITE_PRIMARY_ORIGIN),
+
   title: {
     default: SITE_NAME,
     template: `%s | ${SITE_NAME}`,
   },
+
   description: SITE_DESCRIPTION,
+
   keywords: SITE_KEYWORDS,
+
   applicationName: SITE_NAME,
+
   openGraph: {
     type: "website",
+
     locale: "vi_VN",
+
     siteName: SITE_NAME,
+
+    title: SITE_FULL_TITLE,
+
     description: SITE_DESCRIPTION,
+
+    url: SITE_PRIMARY_ORIGIN,
+
     images: [
       {
         url: getFullOgImageUrl(),
@@ -100,12 +114,17 @@ export const rootSiteMetadata: Metadata = {
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
-    title: SITE_NAME,
+
+    title: SITE_FULL_TITLE,
+
     description: SITE_DESCRIPTION,
+
     images: [getFullOgImageUrl()],
   },
+
   robots: {
     index: true,
     follow: true,
@@ -113,30 +132,48 @@ export const rootSiteMetadata: Metadata = {
 };
 
 type PageMetaInput = {
-  /** Phần đầu title (sẽ ghép với template `| Cửa cuốn Tài Danh`) — trang chủ dùng `absoluteTitle` thay vì field này */
   title: string;
   description: string;
-  /** Đường dẫn pathname, ví dụ `/contact` */
   path: string;
-  /** Tuỳ chọn: ảnh OG */
   image?: string;
 };
 
-export function pageMetadata({ title, description, path, image }: PageMetaInput): Metadata {
-  const canonical = new URL(path, SITE_PRIMARY_ORIGIN).toString();
-  const fullOgTitle = `${title} | ${SITE_NAME}`;
-  const ogImage = image ? new URL(image, getImageOrigin()).toString() : getFullOgImageUrl();
+export function pageMetadata({
+  title,
+  description,
+  path,
+  image,
+}: PageMetaInput): Metadata {
+  const canonical = new URL(
+    path,
+    SITE_PRIMARY_ORIGIN
+  ).toString();
+
+  const fullOgTitle =
+    `${title} | ${SITE_NAME}`;
+
+  const ogImage = image
+    ? new URL(image, getImageOrigin()).toString()
+    : getFullOgImageUrl();
 
   return {
     title,
+
     description,
+
     alternates: {
       canonical,
     },
+
     openGraph: {
       title: fullOgTitle,
+
       description,
+
       url: canonical,
+
+      type: "website",
+
       images: [
         {
           url: ogImage,
@@ -146,9 +183,14 @@ export function pageMetadata({ title, description, path, image }: PageMetaInput)
         },
       ],
     },
+
     twitter: {
+      card: "summary_large_image",
+
       title: fullOgTitle,
+
       description,
+
       images: [ogImage],
     },
   };
@@ -159,11 +201,10 @@ type ProductMetaInput = {
   title: string;
   description: string;
   image: string;
-  /** Tuỳ chọn: keywords */
   keywords?: string[];
 };
 
-/** Metadata chuyên biệt cho trang sản phẩm chi tiết */
+/** Metadata cho trang sản phẩm */
 export function productMetadata({
   slug,
   title,
@@ -172,21 +213,40 @@ export function productMetadata({
   keywords,
 }: ProductMetaInput): Metadata {
   const path = `/san-pham/${slug}`;
-  const canonical = new URL(path, SITE_PRIMARY_ORIGIN).toString();
-  const fullOgTitle = `${title} | ${SITE_NAME}`;
-  const ogImage = new URL(image, getImageOrigin()).toString();
+
+  const canonical = new URL(
+    path,
+    SITE_PRIMARY_ORIGIN
+  ).toString();
+
+  const fullOgTitle =
+    `${title} | ${SITE_NAME}`;
+
+  const ogImage = new URL(
+    image,
+    getImageOrigin()
+  ).toString();
 
   return {
     title,
+
     description,
+
     keywords,
+
     alternates: {
       canonical,
     },
+
     openGraph: {
       title: fullOgTitle,
+
       description,
+
       url: canonical,
+
+      type: "article",
+
       images: [
         {
           url: ogImage,
@@ -196,26 +256,52 @@ export function productMetadata({
         },
       ],
     },
+
     twitter: {
       card: "summary_large_image",
+
       title: fullOgTitle,
+
       description,
+
       images: [ogImage],
     },
   };
 }
 
-/** Trang chủ: title tuyệt đối, không thêm suffix. */
+/** Metadata cho trang chủ */
 export function homeMetadata(): Metadata {
-  const canonical = new URL("/", SITE_PRIMARY_ORIGIN).toString();
+  const canonical = new URL(
+    "/",
+    SITE_PRIMARY_ORIGIN
+  ).toString();
+
   return {
-    title: { absolute: SITE_FULL_TITLE },
+    title: {
+      absolute: SITE_FULL_TITLE,
+    },
+
     description: SITE_DESCRIPTION,
-    alternates: { canonical },
+
+    keywords: SITE_KEYWORDS,
+
+    alternates: {
+      canonical,
+    },
+
     openGraph: {
       title: SITE_FULL_TITLE,
+
       description: SITE_DESCRIPTION,
+
       url: canonical,
+
+      type: "website",
+
+      siteName: SITE_NAME,
+
+      locale: "vi_VN",
+
       images: [
         {
           url: getFullOgImageUrl(),
@@ -225,10 +311,14 @@ export function homeMetadata(): Metadata {
         },
       ],
     },
+
     twitter: {
       card: "summary_large_image",
+
       title: SITE_FULL_TITLE,
+
       description: SITE_DESCRIPTION,
+
       images: [getFullOgImageUrl()],
     },
   };
