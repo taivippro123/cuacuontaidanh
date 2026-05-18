@@ -4,8 +4,18 @@
     "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH B600",
     "slug": "binh-luu-dien-cua-cuon-yh-b600",
     "description": "Bình lưu điện cửa cuốn YH B600",
-    "image": "/images/products/product-1-bg-1.png",
+    "image": "/images/products/YH-B600.jfif",
     "categoryId": 1,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/YH-B600.jfif",
+        "/images/products/YH-B600.jfif"
+      ],
+      "previews": [
+        "/images/products/YH-B600.jfif",
+        "/images/products/YH-B600.jfif"
+      ]
+    },
     "specifications": [
       {
         "key": "Thương hiệu",
@@ -86,16 +96,16 @@
     "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH C400",
     "slug": "binh-luu-dien-cua-cuon-yh-c400",
     "description": "Bình lưu điện cửa cuốn YH C400",
-    "image": "/images/products/product-2-bg-1.png",
+    "image": "/images/products/YH-C400.png",
     "categoryId": 1,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-2-sm-1.png",
-        "/images/products/product-2-sm-2.png"
+        "/images/products/YH-C400.png",
+        "/images/products/YH-C400.png"
       ],
       "previews": [
-        "/images/products/product-2-bg-1.png",
-        "/images/products/product-2-bg-2.png"
+        "/images/products/YH-C400.png",
+        "/images/products/YH-C400.png"
       ]
     },
     "specifications": [
@@ -178,8 +188,19 @@
     "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH C600",
     "slug": "binh-luu-dien-cua-cuon-yh-c600",
     "description": "Bình lưu điện cửa cuốn YH C600",
-    "image": "/images/products/product-3-bg-1.png",
+    "image": "/images/products/YH-C600.jpg",
     "categoryId": 1,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/YH-C600.jpg",
+        "/images/products/YH-C600.jpg"
+      ],
+      "previews": [
+        "/images/products/YH-C600.jpg",
+        "/images/products/YH-C600.jpg"
+      ]
+    },
+
     "specifications": [
       {
         "key": "Thương hiệu",
@@ -260,8 +281,19 @@
     "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH B400",
     "slug": "binh-luu-dien-cua-cuon-yh-b400",
     "description": "Bình lưu điện cửa cuốn YH B400",
-    "image": "/images/products/product-4-bg-1.png",
+    "image": "/images/products/YH-B400.jfif",
     "categoryId": 1,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/YH-B400.jfif",
+        "/images/products/YH-B400.jfif"
+      ],
+      "previews": [
+        "/images/products/YH-B400.jfif",
+        "/images/products/YH-B400.jfif"
+      ]
+    },
+
     "specifications": [
       {
         "key": "Thương hiệu",
@@ -342,8 +374,19 @@
     "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH B800",
     "slug": "binh-luu-dien-cua-cuon-yh-b800",
     "description": "Bình lưu điện cửa cuốn YH B800",
-    "image": "/images/products/product-5-bg-1.png",
+    "image": "/images/products/YH-B800.png",
     "categoryId": 1,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/YH-B800.png",
+        "/images/products/YH-B800.png"
+      ],
+      "previews": [
+        "/images/products/YH-B800.png",
+        "/images/products/YH-B800.png"
+      ]
+    },
+
     "specifications": [
       {
         "key": "Thương hiệu",
@@ -424,8 +467,18 @@
     "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH C800",
     "slug": "binh-luu-dien-cua-cuon-yh-c800",
     "description": "Bình lưu điện cửa cuốn YH C800",
-    "image": "/images/products/product-6-bg-1.png",
+    "image": "/images/products/YH-C800.jpeg",
     "categoryId": 1,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/YH-C800.jpeg",
+        "/images/products/YH-C800.jpeg"
+      ],
+      "previews": [
+        "/images/products/YH-C800.jpeg",
+        "/images/products/YH-C800.jpeg"
+      ]
+    },
     "specifications": [
       {
         "key": "Thương hiệu",
@@ -506,8 +559,16 @@
     "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH A2D",
     "slug": "binh-luu-dien-cua-cuon-yh-a2d",
     "description": "Bình lưu điện cửa cuốn YH A2D",
-    "image": "/images/products/product-7-bg-1.png",
+    "image": "/images/products/YH-A2D.jpg",
     "categoryId": 1,
+    "imgs": {
+      "thumbnails": [
+        "/images/products/YH-A2D.jpg",
+        "/images/products/YH-A2D.jpg"
+      ],
+      "previews": ["/images/products/YH-A2D.jpg", "/images/products/YH-A2D.jpg"]
+    },
+
     "specifications": [
       {
         "key": "Thương hiệu",
@@ -576,18 +637,19 @@
     "title": "BÌNH LƯU ĐIỆN CỬA CUỐN YH B1500MAX",
     "slug": "binh-luu-dien-cua-cuon-yh-b1500max",
     "description": "Bình lưu điện cửa cuốn YH B1500MAX",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/YH-B1500MAX.jpg",
     "categoryId": 1,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/YH-B1500MAX.jpg",
+        "/images/products/YH-B1500MAX.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/YH-B1500MAX.jpg",
+        "/images/products/YH-B1500MAX.jpg"
       ]
     },
+
     "specifications": [
       {
         "key": "Thương hiệu",
@@ -668,16 +730,16 @@
     "title": "CỬA CUỐN ĐÀI LOAN – 6 DEM",
     "slug": "cua-cuon-dai-loan-6-dem",
     "description": "Cửa cuốn đài loan 6 dem",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCDL-6DEM.jpg",
     "categoryId": 2,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCDL-6DEM.jpg",
+        "/images/products/CCDL-6DEM.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCDL-6DEM.jpg",
+        "/images/products/CCDL-6DEM.jpg"
       ]
     },
     "specifications": [
@@ -712,16 +774,16 @@
     "title": "CỬA CUỐN ĐÀI LOAN – 7 DEM",
     "slug": "cua-cuon-dai-loan-7-dem",
     "description": "Cửa cuốn đài loan 7 dem",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCDL-7DEM.jpg",
     "categoryId": 2,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCDL-7DEM.jpg",
+        "/images/products/CCDL-7DEM.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCDL-7DEM.jpg",
+        "/images/products/CCDL-7DEM.jpg"
       ]
     },
     "specifications": [
@@ -756,16 +818,16 @@
     "title": "CỬA CUỐN ĐÀI LOAN – 8 DEM",
     "slug": "cua-cuon-dai-loan-8-dem",
     "description": "Cửa cuốn đài loan 8 dem",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCDL-8DEM.jpg",
     "categoryId": 2,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCDL-8DEM.jpg",
+        "/images/products/CCDL-8DEM.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCDL-8DEM.jpg",
+        "/images/products/CCDL-8DEM.jpg"
       ]
     },
     "specifications": [
@@ -800,16 +862,16 @@
     "title": "CỬA CUỐN ĐÀI LOAN – 9 DEM",
     "slug": "cua-cuon-dai-loan-9-dem",
     "description": "Cửa cuốn đài loan 9 dem",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCDL-9DEM.jpg",
     "categoryId": 2,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCDL-9DEM.jpg",
+        "/images/products/CCDL-9DEM.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCDL-9DEM.jpg",
+        "/images/products/CCDL-9DEM.jpg"
       ]
     },
     "specifications": [
@@ -844,16 +906,16 @@
     "title": "CỬA CUỐN CÔNG NGHỆ ĐÀI LOAN – DÒNG THẾ HỆ MỚI",
     "slug": "cua-cuon-cong-nghe-dai-loan-dong-the-he-moi",
     "description": "Cửa cuốn công nghệ đài loan dòng thế hệ mới",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCDL-THM.jpg",
     "categoryId": 2,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCDL-THM.jpg",
+        "/images/products/CCDL-THM.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCDL-THM.jpg",
+        "/images/products/CCDL-THM.jpg"
       ]
     },
     "specifications": [
@@ -896,16 +958,16 @@
     "title": "CỬA CUỐN ĐỨC OV 70 – NAN KÍN",
     "slug": "cua-cuon-duc-ov-70-nan-kin",
     "description": "Cửa cuốn đức ov 70 nan kin",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCD-OV70.jpg",
     "categoryId": 3,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCD-OV70.jpg",
+        "/images/products/CCD-OV70.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCD-OV70.jpg",
+        "/images/products/CCD-OV70.jpg"
       ]
     },
     "specifications": [
@@ -952,16 +1014,16 @@
     "title": "CỬA CUỐN ĐỨC C501i",
     "slug": "cua-cuon-duc-c501i",
     "description": "Cửa cuốn đức c501i",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCD-C501i.jpg",
     "categoryId": 3,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCD-C501i.jpg",
+        "/images/products/CCD-C501i.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCD-C501i.jpg",
+        "/images/products/CCD-C501i.jpg"
       ]
     },
     "specifications": [
@@ -1012,12 +1074,12 @@
     "categoryId": 3,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCD-C505e.jpg",
+        "/images/products/CCD-C505e.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCD-C505e.jpg",
+        "/images/products/CCD-C505e.jpg"
       ]
     },
     "specifications": [
@@ -1064,16 +1126,16 @@
     "title": "CỬA CUỐN ĐỨC C507",
     "slug": "cua-cuon-duc-c507",
     "description": "Cửa cuốn đức c507",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCD-C507.jpg",
     "categoryId": 3,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCD-C507.jpg",
+        "/images/products/CCD-C507.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCD-C507.jpg",
+        "/images/products/CCD-C507.jpg"
       ]
     },
     "specifications": [
@@ -1120,16 +1182,16 @@
     "title": "CỬA CUỐN ĐỨC V508e 2.0",
     "slug": "cua-cuon-duc-v508e-2.0",
     "description": "Cửa cuốn đức v508e 2.0",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCD-V508.jpg",
     "categoryId": 3,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCD-V508.jpg",
+        "/images/products/CCD-V508.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCD-V508.jpg",
+        "/images/products/CCD-V508.jpg"
       ]
     },
     "specifications": [
@@ -1180,12 +1242,12 @@
     "categoryId": 3,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCD-V509.jpg",
+        "/images/products/CCD-V509.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCD-V509.jpg",
+        "/images/products/CCD-V509.jpg"
       ]
     },
     "specifications": [
@@ -1232,16 +1294,16 @@
     "title": "CỬA CUỐN ĐỨC G901ed 3.0 – SIÊU DÀY",
     "slug": "cua-cuon-duc-g901ed-3.0-sieu-day",
     "description": "Cửa cuốn đức g901ed 3.0 siêu dày",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCD-G901.jpg",
     "categoryId": 3,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCD-G901.jpg",
+        "/images/products/CCD-G901.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCD-G901.jpg",
+        "/images/products/CCD-G901.jpg"
       ]
     },
     "specifications": [
@@ -1288,16 +1350,16 @@
     "title": "CỬA CUỐN ĐỨC V705et 3.0 – SIÊU THOÁNG",
     "slug": "cua-cuon-duc-v705et-3.0-sieu-thoang",
     "description": "Cửa cuốn đức v705et 3.0 siêu thoáng",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCD-V705.jpg",
     "categoryId": 3,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCD-V705.jpg",
+        "/images/products/CCD-V705.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCD-V705.jpg",
+        "/images/products/CCD-V705.jpg"
       ]
     },
     "specifications": [
@@ -1344,16 +1406,16 @@
     "title": "CỬA CUỐN ÚC – DÒNG PHỔ THÔNG",
     "slug": "cua-cuon-uc-dong-pho-thong",
     "description": "Cửa cuốn úc dòng phổ thông",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCD-G901.jpg",
     "categoryId": 4,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCD-G901.jpg",
+        "/images/products/CCD-G901.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCD-G901.jpg",
+        "/images/products/CCD-G901.jpg"
       ]
     },
     "specifications": [
@@ -1388,16 +1450,16 @@
     "title": "CỬA CUỐN ÚC – ECOMAX",
     "slug": "cua-cuon-uc-ecomax",
     "description": "Cửa cuốn úc ecomax",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCU-ECOMAX.jpg",
     "categoryId": 4,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCU-ECOMAX.jpg",
+        "/images/products/CCU-ECOMAX.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCU-ECOMAX.jpg",
+        "/images/products/CCU-ECOMAX.jpg"
       ]
     },
     "specifications": [
@@ -1432,16 +1494,16 @@
     "title": "CỬA CUỐN ÚC – NEWMAX ROLL",
     "slug": "cua-cuon-uc-newmax-roll",
     "description": "Cửa cuốn úc newmax roll",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCU-NEWROLL.jpg",
     "categoryId": 4,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCU-NEWROLL.jpg",
+        "/images/products/CCU-NEWROLL.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCU-NEWROLL.jpg",
+        "/images/products/CCU-NEWROLL.jpg"
       ]
     },
     "specifications": [
@@ -1476,16 +1538,16 @@
     "title": "CỬA CUỐN ÚC – AUST ROLL CB",
     "slug": "cua-cuon-uc-aust-roll-cb",
     "description": "Cửa cuốn úc aust roll cb",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCU-AUSTROLL.jpg",
     "categoryId": 4,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCU-AUSTROLL.jpg",
+        "/images/products/CCU-AUSTROLL.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCU-AUSTROLL.jpg",
+        "/images/products/CCU-AUSTROLL.jpg"
       ]
     },
     "specifications": [
@@ -1520,16 +1582,16 @@
     "title": "CỬA CUỐN ÚC – ALUSWIN",
     "slug": "cua-cuon-uc-aluswin",
     "description": "Cửa cuốn úc aluswin",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCU-ALUSWIN.jpg",
     "categoryId": 4,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCU-ALUSWIN.jpg",
+        "/images/products/CCU-ALUSWIN.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCU-ALUSWIN.jpg",
+        "/images/products/CCU-ALUSWIN.jpg"
       ]
     },
     "specifications": [
@@ -1568,12 +1630,12 @@
     "categoryId": 5,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCDB-SONGNGANG.jpg",
+        "/images/products/CCDB-SONGNGANG.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCDB-SONGNGANG.jpg",
+        "/images/products/CCDB-SONGNGANG.jpg"
       ]
     },
     "specifications": [
@@ -1612,16 +1674,16 @@
     "title": "CỬA CUỐN SONG NGANG – SƠN TĨNH ĐIỆN",
     "slug": "cua-cuon-song-ngang-son-tinh-dien",
     "description": "Cửa cuốn song ngang sơn tĩnh điện",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCDB-SONTINHDIEN.jpg",
     "categoryId": 5,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCDB-SONTINHDIEN.jpg",
+        "/images/products/CCDB-SONTINHDIEN.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCDB-SONTINHDIEN.jpg",
+        "/images/products/CCDB-SONTINHDIEN.jpg"
       ]
     },
     "specifications": [
@@ -1660,16 +1722,16 @@
     "title": "CỬA CUỐN SIÊU TRƯỜNG – CỬA CÔNG NGHIỆP",
     "slug": "cua-cuon-sieu-truong-cua-cong-nghiep",
     "description": "Cửa cuốn siêu trường cửa công nghiệp",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCDB-SIEUTRUONG.webp",
     "categoryId": 5,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCDB-SIEUTRUONG.webp",
+        "/images/products/CCDB-SIEUTRUONG.webp"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCDB-SIEUTRUONG.webp",
+        "/images/products/CCDB-SIEUTRUONG.webp"
       ]
     },
     "specifications": [
@@ -1756,16 +1818,16 @@
     "title": "CỬA CUỐN MẮC VÕNG INOX",
     "slug": "cua-cuon-mac-vong-inox",
     "description": "Cửa cuốn mắc võng inox",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCDB-MACVONGINOX.jpg",
     "categoryId": 5,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCDB-MACVONGINOX.jpg",
+        "/images/products/CCDB-MACVONGINOX.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCDB-MACVONGINOX.jpg",
+        "/images/products/CCDB-MACVONGINOX.jpg"
       ]
     },
     "specifications": [
@@ -1804,16 +1866,16 @@
     "title": "CỬA CUỐN MẮC VÕNG – SƠN TĨNH ĐIỆN",
     "slug": "cua-cuon-mac-vong-son-tinh-dien",
     "description": "Cửa cuốn mắc võng sơn tĩnh điện",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CCDB-MACVONGSTD.jpg",
     "categoryId": 5,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CCDB-MACVONGSTD.jpg",
+        "/images/products/CCDB-MACVONGSTD.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CCDB-MACVONGSTD.jpg",
+        "/images/products/CCDB-MACVONGSTD.jpg"
       ]
     },
     "specifications": [
@@ -1852,16 +1914,16 @@
     "title": "CỬA KÉO ĐÀI LOAN – U 1LY1",
     "slug": "cua-keo-dai-loan-u-1ly1",
     "description": "Cửa kéo đài loan u 1ly1",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CKDL-U1LY1.jfif",
     "categoryId": 6,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CKDL-U1LY1.jfif",
+        "/images/products/CKDL-U1LY1.jfif"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CKDL-U1LY1.jfif",
+        "/images/products/CKDL-U1LY1.jfif"
       ]
     },
     "specifications": [
@@ -1896,16 +1958,16 @@
     "title": "CỬA KÉO ĐÀI LOAN – U 7 DEM",
     "slug": "cua-keo-dai-loan-u-7-dem",
     "description": "Cửa kéo đài loan u 7 dem",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CKDL-7DEM.jpg",
     "categoryId": 6,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CKDL-7DEM.jpg",
+        "/images/products/CKDL-7DEM.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CKDL-7DEM.jpg",
+        "/images/products/CKDL-7DEM.jpg"
       ]
     },
     "specifications": [
@@ -1944,12 +2006,12 @@
     "categoryId": 6,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CKDL-UTHUONG.jpg",
+        "/images/products/CKDL-UTHUONG.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CKDL-UTHUONG.jpg",
+        "/images/products/CKDL-UTHUONG.jpg"
       ]
     },
     "specifications": [
@@ -1984,16 +2046,16 @@
     "title": "CỬA KÉO ĐÀI LOAN – U 8 DEM",
     "slug": "cua-keo-dai-loan-u-8-dem",
     "description": "Cửa kéo đài loan u 8 dem",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CKDL-8DEM.jpg",
     "categoryId": 6,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CKDL-8DEM.jpg",
+        "/images/products/CKDL-8DEM.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CKDL-8DEM.jpg",
+        "/images/products/CKDL-8DEM.jpg"
       ]
     },
     "specifications": [
@@ -2028,16 +2090,16 @@
     "title": "CỬA KÉO ĐÀI LOAN – U 9 DEM",
     "slug": "cua-keo-dai-loan-u-9-dem",
     "description": "Cửa kéo đài loan u 9 dem",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CKDL-9DEM.jpg",
     "categoryId": 6,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CKDL-9DEM.jpg",
+        "/images/products/CKDL-9DEM.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CKDL-9DEM.jpg",
+        "/images/products/CKDL-9DEM.jpg"
       ]
     },
     "specifications": [
@@ -2072,16 +2134,16 @@
     "title": "CỬA KÉO ĐÀI LOAN – U 1 LY",
     "slug": "cua-keo-dai-loan-u-1-ly",
     "description": "Cửa kéo đài loan u 1 ly",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/CKDL-U1LY.jpg",
     "categoryId": 6,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/CKDL-U1LY.jpg",
+        "/images/products/CKDL-U1LY.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/CKDL-U1LY.jpg",
+        "/images/products/CKDL-U1LY.jpg"
       ]
     },
     "specifications": [
@@ -2116,16 +2178,16 @@
     "title": "BỘ ĐIỀU KHIỂN CỬA CUỐN ENGINES",
     "slug": "bo-dieu-khien-cua-cuon-engines",
     "description": "Bộ điều khiển cửa cuốn engines",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/REMOTE-ENGINES.jpg",
     "categoryId": 7,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/REMOTE-ENGINES.jpg",
+        "/images/products/REMOTE-ENGINES.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/REMOTE-ENGINES.jpg",
+        "/images/products/REMOTE-ENGINES.jpg"
       ]
     },
     "specifications": [
@@ -2164,16 +2226,16 @@
     "title": "BỘ ĐIỀU KHIỂN CỬA CUỐN YH TAIWAN",
     "slug": "bo-dieu-khien-cua-cuon-yh-taiwan",
     "description": "Bộ điều khiển cửa cuốn yh taiwan",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/REMOTE-YHTAIWAN.jpg",
     "categoryId": 7,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/REMOTE-YHTAIWAN.jpg",
+        "/images/products/REMOTE-YHTAIWAN.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/REMOTE-YHTAIWAN.jpg",
+        "/images/products/REMOTE-YHTAIWAN.jpg"
       ]
     },
     "specifications": [
@@ -2212,16 +2274,16 @@
     "title": "BỘ ĐIỀU KHIỂN CỬA CUỐN YH LIÊN DOANH",
     "slug": "bo-dieu-khien-cua-cuon-yh-lien-doanh",
     "description": "Bộ điều khiển cửa cuốn yh liên doanh",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/REMOTE-YHLIENDOANH.jfif",
     "categoryId": 7,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/REMOTE-YHLIENDOANH.jfif",
+        "/images/products/REMOTE-YHLIENDOANH.jfif"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/REMOTE-YHLIENDOANH.jfif",
+        "/images/products/REMOTE-YHLIENDOANH.jfif"
       ]
     },
     "specifications": [
@@ -2260,16 +2322,16 @@
     "title": "BỘ ĐIỀU KHIỂN CỬA CUỐN JG",
     "slug": "bo-dieu-khien-cua-cuon-jg",
     "description": "Bộ điều khiển cửa cuốn jg",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/REMOTE-JG.jpg",
     "categoryId": 7,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/REMOTE-JG.jpg",
+        "/images/products/REMOTE-JG.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/REMOTE-JG.jpg",
+        "/images/products/REMOTE-JG.jpg"
       ]
     },
     "specifications": [
@@ -2308,16 +2370,16 @@
     "title": "BỘ ĐIỀU KHIỂN CỬA CUỐN HL",
     "slug": "bo-dieu-khien-cua-cuon-hl",
     "description": "Bộ điều khiển cửa cuốn hl",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/REMOTE-HL.jpg",
     "categoryId": 7,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/REMOTE-HL.jpg",
+        "/images/products/REMOTE-HL.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/REMOTE-HL.jpg",
+        "/images/products/REMOTE-HL.jpg"
       ]
     },
     "specifications": [
@@ -2356,16 +2418,16 @@
     "title": "MOTOR CỬA CUỐN YH 500KG LIÊN DOANH",
     "slug": "motor-cua-cuon-yh-500kg-lien-doanh",
     "description": "Motor cửa cuốn yh 500kg liên doanh",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/MOTOR-YH500.png",
     "categoryId": 8,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/MOTOR-YH500.png",
+        "/images/products/MOTOR-YH500.png"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/MOTOR-YH500.png",
+        "/images/products/MOTOR-YH500.png"
       ]
     },
     "specifications": [
@@ -2408,16 +2470,16 @@
     "title": "MOTOR CỬA CUỐN YH 300KG LIÊN DOANH",
     "slug": "motor-cua-cuon-yh-300kg-lien-doanh",
     "description": "Motor cửa cuốn yh 300kg liên doanh",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/MOTOR-YH300.png",
     "categoryId": 8,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/MOTOR-YH300.png",
+        "/images/products/MOTOR-YH300.png"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/MOTOR-YH300.png",
+        "/images/products/MOTOR-YH300.png"
       ]
     },
     "specifications": [
@@ -2460,16 +2522,16 @@
     "title": "MOTOR CỬA CUỐN HL 400KG",
     "slug": "motor-cua-cuon-hl-400kg",
     "description": "Motor cửa cuốn hl 400kg",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/MOTOR-HL400.jpg",
     "categoryId": 8,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/MOTOR-HL400.jpg",
+        "/images/products/MOTOR-HL400.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/MOTOR-HL400.jpg",
+        "/images/products/MOTOR-HL400.jpg"
       ]
     },
     "specifications": []
@@ -2479,16 +2541,16 @@
     "title": "MOTOR CỬA CUỐN HL 600KG",
     "slug": "",
     "description": "",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/MOTOR-HL600.jpg",
     "categoryId": 8,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/MOTOR-HL600.jpg",
+        "/images/products/MOTOR-HL600.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/MOTOR-HL600.jpg",
+        "/images/products/MOTOR-HL600.jpg"
       ]
     },
     "specifications": [
@@ -2559,16 +2621,16 @@
     "title": "MOTOR CỬA CUỐN JG 500 KG",
     "slug": "motor-cua-cuon-jg-500kg",
     "description": "Motor cửa cuốn jg 500kg",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/MOTOR-JG500.png",
     "categoryId": 8,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/MOTOR-JG500.png",
+        "/images/products/MOTOR-JG500.png"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/MOTOR-JG500.png",
+        "/images/products/MOTOR-JG500.png"
       ]
     },
     "specifications": [
@@ -2595,16 +2657,16 @@
     "title": "MOTOR CỬA CUỐN JG 300 KG",
     "slug": "motor-cua-cuon-jg-300kg",
     "description": "Motor cửa cuốn jg 300kg",
-    "image": "/images/products/product-8-bg-1.png",
+    "image": "/images/products/MOTOR-JG300.jpg",
     "categoryId": 8,
     "imgs": {
       "thumbnails": [
-        "/images/products/product-8-sm-1.png",
-        "/images/products/product-8-sm-2.png"
+        "/images/products/MOTOR-JG300.jpg",
+        "/images/products/MOTOR-JG300.jpg"
       ],
       "previews": [
-        "/images/products/product-8-bg-1.png",
-        "/images/products/product-8-bg-2.png"
+        "/images/products/MOTOR-JG300.jpg",
+        "/images/products/MOTOR-JG300.jpg"
       ]
     },
     "specifications": [
