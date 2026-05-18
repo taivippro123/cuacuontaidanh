@@ -30,19 +30,10 @@ export const SITE_PRIMARY_ORIGIN = (() => {
 export const SITE_SECONDARY_ORIGIN = "https://cuacuontaidanh.vercel.app";
 
 /**
- * Helper: Lấy domain phù hợp cho OG images.
- * Vercel tự động set VERCEL_URL cho preview/prod deployments
- * - VERCEL_URL = *.vercel.app (preview) → dùng .vercel.app
- * - VERCEL_URL = undefined (production) → dùng .id.vn
+ * Helper: OG image luôn dùng Vercel domain để social crawlers có thể truy cập
  */
 export const getImageOrigin = (): string => {
-  // Nếu có VERCEL_URL (Vercel preview) → dùng .vercel.app
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`;
-  }
-  
-  // Fallback: production hoặc local → dùng production domain
-  return SITE_PRIMARY_ORIGIN;
+  return SITE_SECONDARY_ORIGIN; // https://cuacuontaidanh.vercel.app
 };
 
 export const SITE_DESCRIPTION =
